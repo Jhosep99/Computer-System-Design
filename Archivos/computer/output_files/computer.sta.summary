@@ -1,0 +1,53 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'Clock'
+Slack : -8.234
+TNS   : -1268.083
+
+Type  : Slow Model Setup 'CPU:U0|control_unit:U1|current_state.S_DECODE_3'
+Slack : -3.438
+TNS   : -20.252
+
+Type  : Slow Model Hold 'CPU:U0|control_unit:U1|current_state.S_DECODE_3'
+Slack : -3.924
+TNS   : -17.585
+
+Type  : Slow Model Hold 'Clock'
+Slack : -1.896
+TNS   : -18.112
+
+Type  : Slow Model Minimum Pulse Width 'Clock'
+Slack : -2.064
+TNS   : -426.247
+
+Type  : Slow Model Minimum Pulse Width 'CPU:U0|control_unit:U1|current_state.S_DECODE_3'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'Clock'
+Slack : -2.220
+TNS   : -264.187
+
+Type  : Fast Model Setup 'CPU:U0|control_unit:U1|current_state.S_DECODE_3'
+Slack : -0.251
+TNS   : -1.004
+
+Type  : Fast Model Hold 'CPU:U0|control_unit:U1|current_state.S_DECODE_3'
+Slack : -1.916
+TNS   : -8.759
+
+Type  : Fast Model Hold 'Clock'
+Slack : -1.385
+TNS   : -14.882
+
+Type  : Fast Model Minimum Pulse Width 'Clock'
+Slack : -1.627
+TNS   : -344.762
+
+Type  : Fast Model Minimum Pulse Width 'CPU:U0|control_unit:U1|current_state.S_DECODE_3'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------

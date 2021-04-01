@@ -1,0 +1,1536 @@
+TimeQuest Timing Analyzer report for Mux_3to1
+Wed Mar 24 09:46:06 2021
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow Model Fmax Summary
+  6. Slow Model Setup Summary
+  7. Slow Model Hold Summary
+  8. Slow Model Recovery Summary
+  9. Slow Model Removal Summary
+ 10. Slow Model Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Fast Model Setup Summary
+ 14. Fast Model Hold Summary
+ 15. Fast Model Recovery Summary
+ 16. Fast Model Removal Summary
+ 17. Fast Model Minimum Pulse Width Summary
+ 18. Propagation Delay
+ 19. Minimum Propagation Delay
+ 20. Multicorner Timing Analysis Summary
+ 21. Progagation Delay
+ 22. Minimum Progagation Delay
+ 23. Clock Transfers
+ 24. Report TCCS
+ 25. Report RSKM
+ 26. Unconstrained Paths
+ 27. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                      ;
++--------------------+-------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition ;
+; Revision Name      ; Mux_3to1                                                          ;
+; Device Family      ; Cyclone II                                                        ;
+; Device Name        ; EP2C8AF256A7                                                      ;
+; Timing Models      ; Final                                                             ;
+; Delay Model        ; Combined                                                          ;
+; Rise/Fall Delays   ; Unavailable                                                       ;
++--------------------+-------------------------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+---------------------------
+; Slow Model Fmax Summary ;
+---------------------------
+No paths to report.
+
+
+----------------------------
+; Slow Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Slow Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Slow Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Slow Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++-------------------------------------------------------------------+
+; Propagation Delay                                                 ;
++-----------------+-------------+--------+--------+--------+--------+
+; Input Port      ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++-----------------+-------------+--------+--------+--------+--------+
+; address[0]      ; data_out[0] ; 17.145 ; 17.145 ; 17.145 ; 17.145 ;
+; address[0]      ; data_out[1] ; 13.731 ; 13.731 ; 13.731 ; 13.731 ;
+; address[0]      ; data_out[2] ; 17.911 ; 17.911 ; 17.911 ; 17.911 ;
+; address[0]      ; data_out[3] ; 13.761 ; 13.761 ; 13.761 ; 13.761 ;
+; address[0]      ; data_out[4] ; 20.998 ; 20.998 ; 20.998 ; 20.998 ;
+; address[0]      ; data_out[5] ; 16.115 ; 16.115 ; 16.115 ; 16.115 ;
+; address[0]      ; data_out[6] ; 17.989 ; 17.989 ; 17.989 ; 17.989 ;
+; address[0]      ; data_out[7] ; 14.518 ; 14.518 ; 14.518 ; 14.518 ;
+; address[1]      ; data_out[0] ; 16.376 ; 16.376 ; 16.376 ; 16.376 ;
+; address[1]      ; data_out[1] ; 13.404 ; 13.404 ; 13.404 ; 13.404 ;
+; address[1]      ; data_out[2] ; 17.816 ; 17.816 ; 17.816 ; 17.816 ;
+; address[1]      ; data_out[3] ; 13.469 ; 13.469 ; 13.469 ; 13.469 ;
+; address[1]      ; data_out[4] ; 19.683 ; 19.683 ; 19.683 ; 19.683 ;
+; address[1]      ; data_out[5] ; 13.937 ; 13.937 ; 13.937 ; 13.937 ;
+; address[1]      ; data_out[6] ; 16.876 ; 16.876 ; 16.876 ; 16.876 ;
+; address[1]      ; data_out[7] ; 13.092 ; 13.092 ; 13.092 ; 13.092 ;
+; address[2]      ; data_out[0] ; 14.328 ; 14.328 ; 14.328 ; 14.328 ;
+; address[2]      ; data_out[1] ; 16.168 ; 16.168 ; 16.168 ; 16.168 ;
+; address[2]      ; data_out[2] ; 15.862 ; 15.862 ; 15.862 ; 15.862 ;
+; address[2]      ; data_out[3] ; 14.914 ; 14.914 ; 14.914 ; 14.914 ;
+; address[2]      ; data_out[4] ; 17.823 ; 17.823 ; 17.823 ; 17.823 ;
+; address[2]      ; data_out[5] ; 16.365 ; 16.365 ; 16.365 ; 16.365 ;
+; address[2]      ; data_out[6] ; 14.425 ; 14.425 ; 14.425 ; 14.425 ;
+; address[2]      ; data_out[7] ; 14.092 ; 14.092 ; 14.092 ; 14.092 ;
+; address[3]      ; data_out[0] ; 9.290  ; 9.290  ; 9.290  ; 9.290  ;
+; address[3]      ; data_out[1] ; 11.485 ; 11.485 ; 11.485 ; 11.485 ;
+; address[3]      ; data_out[2] ; 11.899 ; 11.899 ; 11.899 ; 11.899 ;
+; address[3]      ; data_out[3] ; 10.582 ; 10.582 ; 10.582 ; 10.582 ;
+; address[3]      ; data_out[4] ; 13.988 ; 13.988 ; 13.988 ; 13.988 ;
+; address[3]      ; data_out[5] ; 11.463 ; 11.463 ; 11.463 ; 11.463 ;
+; address[3]      ; data_out[6] ; 10.473 ; 10.473 ; 10.473 ; 10.473 ;
+; address[3]      ; data_out[7] ; 10.260 ; 10.260 ; 10.260 ; 10.260 ;
+; address[4]      ; data_out[0] ; 10.948 ;        ;        ; 10.948 ;
+; address[4]      ; data_out[1] ; 11.502 ;        ;        ; 11.502 ;
+; address[4]      ; data_out[2] ; 11.276 ;        ;        ; 11.276 ;
+; address[4]      ; data_out[3] ; 14.736 ;        ;        ; 14.736 ;
+; address[4]      ; data_out[4] ; 11.287 ;        ;        ; 11.287 ;
+; address[4]      ; data_out[5] ; 11.321 ;        ;        ; 11.321 ;
+; address[4]      ; data_out[6] ; 11.320 ;        ;        ; 11.320 ;
+; address[4]      ; data_out[7] ; 13.864 ;        ;        ; 13.864 ;
+; address[5]      ; data_out[0] ; 10.944 ; 12.056 ; 12.056 ; 10.944 ;
+; address[5]      ; data_out[1] ; 11.498 ; 12.190 ; 12.190 ; 11.498 ;
+; address[5]      ; data_out[2] ; 11.272 ; 12.404 ; 12.404 ; 11.272 ;
+; address[5]      ; data_out[3] ; 14.732 ; 15.071 ; 15.071 ; 14.732 ;
+; address[5]      ; data_out[4] ; 11.283 ; 12.405 ; 12.405 ; 11.283 ;
+; address[5]      ; data_out[5] ; 11.317 ; 12.439 ; 12.439 ; 11.317 ;
+; address[5]      ; data_out[6] ; 11.316 ; 12.480 ; 12.480 ; 11.316 ;
+; address[5]      ; data_out[7] ; 13.860 ; 13.793 ; 13.793 ; 13.860 ;
+; address[6]      ; data_out[0] ; 10.639 ; 11.719 ; 11.719 ; 10.639 ;
+; address[6]      ; data_out[1] ; 11.193 ; 11.853 ; 11.853 ; 11.193 ;
+; address[6]      ; data_out[2] ; 10.967 ; 12.067 ; 12.067 ; 10.967 ;
+; address[6]      ; data_out[3] ; 14.427 ; 14.734 ; 14.734 ; 14.427 ;
+; address[6]      ; data_out[4] ; 10.978 ; 12.068 ; 12.068 ; 10.978 ;
+; address[6]      ; data_out[5] ; 11.012 ; 12.102 ; 12.102 ; 11.012 ;
+; address[6]      ; data_out[6] ; 11.011 ; 12.143 ; 12.143 ; 11.011 ;
+; address[6]      ; data_out[7] ; 13.555 ; 13.456 ; 13.456 ; 13.555 ;
+; address[7]      ; data_out[0] ; 12.863 ; 11.926 ; 11.926 ; 12.863 ;
+; address[7]      ; data_out[1] ; 12.997 ; 12.050 ; 12.050 ; 12.997 ;
+; address[7]      ; data_out[2] ; 13.211 ; 12.273 ; 12.273 ; 13.211 ;
+; address[7]      ; data_out[3] ; 15.878 ; 15.351 ; 15.351 ; 15.878 ;
+; address[7]      ; data_out[4] ; 13.212 ; 12.277 ; 12.277 ; 13.212 ;
+; address[7]      ; data_out[5] ; 13.246 ; 12.308 ; 12.308 ; 13.246 ;
+; address[7]      ; data_out[6] ; 13.287 ; 12.337 ; 12.337 ; 13.287 ;
+; address[7]      ; data_out[7] ; 14.688 ; 12.127 ; 12.127 ; 14.688 ;
+; port_in_00[0]   ; data_out[0] ; 15.754 ; 15.754 ; 15.754 ; 15.754 ;
+; port_in_00[1]   ; data_out[1] ; 14.599 ; 14.599 ; 14.599 ; 14.599 ;
+; port_in_00[2]   ; data_out[2] ; 16.570 ; 16.570 ; 16.570 ; 16.570 ;
+; port_in_00[3]   ; data_out[3] ; 14.782 ; 14.782 ; 14.782 ; 14.782 ;
+; port_in_00[4]   ; data_out[4] ; 18.220 ; 18.220 ; 18.220 ; 18.220 ;
+; port_in_00[5]   ; data_out[5] ; 15.731 ; 15.731 ; 15.731 ; 15.731 ;
+; port_in_00[6]   ; data_out[6] ; 15.805 ; 15.805 ; 15.805 ; 15.805 ;
+; port_in_00[7]   ; data_out[7] ; 13.458 ; 13.458 ; 13.458 ; 13.458 ;
+; port_in_01[0]   ; data_out[0] ; 15.496 ; 15.496 ; 15.496 ; 15.496 ;
+; port_in_01[1]   ; data_out[1] ; 14.609 ; 14.609 ; 14.609 ; 14.609 ;
+; port_in_01[2]   ; data_out[2] ; 15.644 ; 15.644 ; 15.644 ; 15.644 ;
+; port_in_01[3]   ; data_out[3] ; 13.783 ; 13.783 ; 13.783 ; 13.783 ;
+; port_in_01[4]   ; data_out[4] ; 19.211 ; 19.211 ; 19.211 ; 19.211 ;
+; port_in_01[5]   ; data_out[5] ; 15.647 ; 15.647 ; 15.647 ; 15.647 ;
+; port_in_01[6]   ; data_out[6] ; 14.563 ; 14.563 ; 14.563 ; 14.563 ;
+; port_in_01[7]   ; data_out[7] ; 12.766 ; 12.766 ; 12.766 ; 12.766 ;
+; port_in_02[0]   ; data_out[0] ; 14.561 ; 14.561 ; 14.561 ; 14.561 ;
+; port_in_02[1]   ; data_out[1] ; 13.292 ; 13.292 ; 13.292 ; 13.292 ;
+; port_in_02[2]   ; data_out[2] ; 16.225 ; 16.225 ; 16.225 ; 16.225 ;
+; port_in_02[3]   ; data_out[3] ; 13.857 ; 13.857 ; 13.857 ; 13.857 ;
+; port_in_02[4]   ; data_out[4] ; 18.041 ; 18.041 ; 18.041 ; 18.041 ;
+; port_in_02[5]   ; data_out[5] ; 14.837 ; 14.837 ; 14.837 ; 14.837 ;
+; port_in_02[6]   ; data_out[6] ; 15.747 ; 15.747 ; 15.747 ; 15.747 ;
+; port_in_02[7]   ; data_out[7] ; 14.000 ; 14.000 ; 14.000 ; 14.000 ;
+; port_in_03[0]   ; data_out[0] ; 14.767 ; 14.767 ; 14.767 ; 14.767 ;
+; port_in_03[1]   ; data_out[1] ; 13.538 ; 13.538 ; 13.538 ; 13.538 ;
+; port_in_03[2]   ; data_out[2] ; 15.475 ; 15.475 ; 15.475 ; 15.475 ;
+; port_in_03[3]   ; data_out[3] ; 13.567 ; 13.567 ; 13.567 ; 13.567 ;
+; port_in_03[4]   ; data_out[4] ; 18.195 ; 18.195 ; 18.195 ; 18.195 ;
+; port_in_03[5]   ; data_out[5] ; 15.002 ; 15.002 ; 15.002 ; 15.002 ;
+; port_in_03[6]   ; data_out[6] ; 14.761 ; 14.761 ; 14.761 ; 14.761 ;
+; port_in_03[7]   ; data_out[7] ; 13.007 ; 13.007 ; 13.007 ; 13.007 ;
+; port_in_04[0]   ; data_out[0] ; 10.504 ; 10.504 ; 10.504 ; 10.504 ;
+; port_in_04[1]   ; data_out[1] ; 13.627 ; 13.627 ; 13.627 ; 13.627 ;
+; port_in_04[2]   ; data_out[2] ; 14.615 ; 14.615 ; 14.615 ; 14.615 ;
+; port_in_04[3]   ; data_out[3] ; 14.422 ; 14.422 ; 14.422 ; 14.422 ;
+; port_in_04[4]   ; data_out[4] ; 18.756 ; 18.756 ; 18.756 ; 18.756 ;
+; port_in_04[5]   ; data_out[5] ; 14.785 ; 14.785 ; 14.785 ; 14.785 ;
+; port_in_04[6]   ; data_out[6] ; 14.598 ; 14.598 ; 14.598 ; 14.598 ;
+; port_in_04[7]   ; data_out[7] ; 13.257 ; 13.257 ; 13.257 ; 13.257 ;
+; port_in_05[0]   ; data_out[0] ; 10.005 ; 10.005 ; 10.005 ; 10.005 ;
+; port_in_05[1]   ; data_out[1] ; 14.283 ; 14.283 ; 14.283 ; 14.283 ;
+; port_in_05[2]   ; data_out[2] ; 14.762 ; 14.762 ; 14.762 ; 14.762 ;
+; port_in_05[3]   ; data_out[3] ; 11.955 ;        ;        ; 11.955 ;
+; port_in_05[4]   ; data_out[4] ; 17.665 ; 17.665 ; 17.665 ; 17.665 ;
+; port_in_05[5]   ; data_out[5] ; 15.501 ; 15.501 ; 15.501 ; 15.501 ;
+; port_in_05[6]   ; data_out[6] ; 14.129 ; 14.129 ; 14.129 ; 14.129 ;
+; port_in_05[7]   ; data_out[7] ; 12.560 ;        ;        ; 12.560 ;
+; port_in_06[0]   ; data_out[0] ; 10.766 ; 10.766 ; 10.766 ; 10.766 ;
+; port_in_06[1]   ; data_out[1] ; 13.236 ;        ;        ; 13.236 ;
+; port_in_06[2]   ; data_out[2] ; 14.148 ;        ;        ; 14.148 ;
+; port_in_06[3]   ; data_out[3] ; 14.064 ; 14.064 ; 14.064 ; 14.064 ;
+; port_in_06[4]   ; data_out[4] ; 18.611 ; 18.611 ; 18.611 ; 18.611 ;
+; port_in_06[5]   ; data_out[5] ; 14.100 ;        ;        ; 14.100 ;
+; port_in_06[6]   ; data_out[6] ; 13.456 ;        ;        ; 13.456 ;
+; port_in_06[7]   ; data_out[7] ; 13.060 ; 13.060 ; 13.060 ; 13.060 ;
+; port_in_07[0]   ; data_out[0] ; 15.274 ; 15.274 ; 15.274 ; 15.274 ;
+; port_in_07[1]   ; data_out[1] ; 13.781 ; 13.781 ; 13.781 ; 13.781 ;
+; port_in_07[2]   ; data_out[2] ; 14.051 ;        ;        ; 14.051 ;
+; port_in_07[3]   ; data_out[3] ; 11.791 ;        ;        ; 11.791 ;
+; port_in_07[4]   ; data_out[4] ; 17.547 ; 17.547 ; 17.547 ; 17.547 ;
+; port_in_07[5]   ; data_out[5] ; 15.207 ; 15.207 ; 15.207 ; 15.207 ;
+; port_in_07[6]   ; data_out[6] ; 14.409 ;        ;        ; 14.409 ;
+; port_in_07[7]   ; data_out[7] ; 11.739 ;        ;        ; 11.739 ;
+; port_in_08[0]   ; data_out[0] ; 15.571 ; 15.571 ; 15.571 ; 15.571 ;
+; port_in_08[1]   ; data_out[1] ; 14.749 ; 14.749 ; 14.749 ; 14.749 ;
+; port_in_08[2]   ; data_out[2] ; 16.004 ; 16.004 ; 16.004 ; 16.004 ;
+; port_in_08[3]   ; data_out[3] ; 13.438 ; 13.438 ; 13.438 ; 13.438 ;
+; port_in_08[4]   ; data_out[4] ; 16.116 ; 16.116 ; 16.116 ; 16.116 ;
+; port_in_08[5]   ; data_out[5] ; 15.427 ; 15.427 ; 15.427 ; 15.427 ;
+; port_in_08[6]   ; data_out[6] ; 15.645 ; 15.645 ; 15.645 ; 15.645 ;
+; port_in_08[7]   ; data_out[7] ; 12.633 ; 12.633 ; 12.633 ; 12.633 ;
+; port_in_09[0]   ; data_out[0] ; 15.467 ; 15.467 ; 15.467 ; 15.467 ;
+; port_in_09[1]   ; data_out[1] ; 13.408 ; 13.408 ; 13.408 ; 13.408 ;
+; port_in_09[2]   ; data_out[2] ; 15.874 ; 15.874 ; 15.874 ; 15.874 ;
+; port_in_09[3]   ; data_out[3] ; 13.800 ; 13.800 ; 13.800 ; 13.800 ;
+; port_in_09[4]   ; data_out[4] ; 15.893 ; 15.893 ; 15.893 ; 15.893 ;
+; port_in_09[5]   ; data_out[5] ; 15.012 ; 15.012 ; 15.012 ; 15.012 ;
+; port_in_09[6]   ; data_out[6] ; 14.653 ; 14.653 ; 14.653 ; 14.653 ;
+; port_in_09[7]   ; data_out[7] ; 13.716 ; 13.716 ; 13.716 ; 13.716 ;
+; port_in_10[0]   ; data_out[0] ; 14.521 ;        ;        ; 14.521 ;
+; port_in_10[1]   ; data_out[1] ; 13.485 ; 13.485 ; 13.485 ; 13.485 ;
+; port_in_10[2]   ; data_out[2] ; 15.831 ; 15.831 ; 15.831 ; 15.831 ;
+; port_in_10[3]   ; data_out[3] ; 13.237 ; 13.237 ; 13.237 ; 13.237 ;
+; port_in_10[4]   ; data_out[4] ; 15.310 ;        ;        ; 15.310 ;
+; port_in_10[5]   ; data_out[5] ; 14.978 ; 14.978 ; 14.978 ; 14.978 ;
+; port_in_10[6]   ; data_out[6] ; 15.086 ; 15.086 ; 15.086 ; 15.086 ;
+; port_in_10[7]   ; data_out[7] ; 12.512 ; 12.512 ; 12.512 ; 12.512 ;
+; port_in_11[0]   ; data_out[0] ; 14.666 ;        ;        ; 14.666 ;
+; port_in_11[1]   ; data_out[1] ; 13.284 ;        ;        ; 13.284 ;
+; port_in_11[2]   ; data_out[2] ; 14.974 ; 14.974 ; 14.974 ; 14.974 ;
+; port_in_11[3]   ; data_out[3] ; 13.330 ; 13.330 ; 13.330 ; 13.330 ;
+; port_in_11[4]   ; data_out[4] ; 15.674 ;        ;        ; 15.674 ;
+; port_in_11[5]   ; data_out[5] ; 14.269 ;        ;        ; 14.269 ;
+; port_in_11[6]   ; data_out[6] ; 13.750 ; 13.750 ; 13.750 ; 13.750 ;
+; port_in_11[7]   ; data_out[7] ; 13.163 ; 13.163 ; 13.163 ; 13.163 ;
+; port_in_12[0]   ; data_out[0] ; 14.992 ; 14.992 ; 14.992 ; 14.992 ;
+; port_in_12[1]   ; data_out[1] ; 13.926 ; 13.926 ; 13.926 ; 13.926 ;
+; port_in_12[2]   ; data_out[2] ; 15.669 ; 15.669 ; 15.669 ; 15.669 ;
+; port_in_12[3]   ; data_out[3] ; 14.117 ; 14.117 ; 14.117 ; 14.117 ;
+; port_in_12[4]   ; data_out[4] ; 12.448 ; 12.448 ; 12.448 ; 12.448 ;
+; port_in_12[5]   ; data_out[5] ; 14.765 ; 14.765 ; 14.765 ; 14.765 ;
+; port_in_12[6]   ; data_out[6] ; 13.893 ; 13.893 ; 13.893 ; 13.893 ;
+; port_in_12[7]   ; data_out[7] ; 12.436 ; 12.436 ; 12.436 ; 12.436 ;
+; port_in_13[0]   ; data_out[0] ; 14.443 ;        ;        ; 14.443 ;
+; port_in_13[1]   ; data_out[1] ; 13.835 ; 13.835 ; 13.835 ; 13.835 ;
+; port_in_13[2]   ; data_out[2] ; 15.040 ; 15.040 ; 15.040 ; 15.040 ;
+; port_in_13[3]   ; data_out[3] ; 12.619 ;        ;        ; 12.619 ;
+; port_in_13[4]   ; data_out[4] ; 16.497 ;        ;        ; 16.497 ;
+; port_in_13[5]   ; data_out[5] ; 15.070 ; 15.070 ; 15.070 ; 15.070 ;
+; port_in_13[6]   ; data_out[6] ; 14.185 ; 14.185 ; 14.185 ; 14.185 ;
+; port_in_13[7]   ; data_out[7] ; 12.513 ;        ;        ; 12.513 ;
+; port_in_14[0]   ; data_out[0] ; 14.638 ; 14.638 ; 14.638 ; 14.638 ;
+; port_in_14[1]   ; data_out[1] ; 13.357 ;        ;        ; 13.357 ;
+; port_in_14[2]   ; data_out[2] ; 14.731 ;        ;        ; 14.731 ;
+; port_in_14[3]   ; data_out[3] ; 13.082 ; 13.082 ; 13.082 ; 13.082 ;
+; port_in_14[4]   ; data_out[4] ; 16.676 ; 16.676 ; 16.676 ; 16.676 ;
+; port_in_14[5]   ; data_out[5] ; 14.204 ;        ;        ; 14.204 ;
+; port_in_14[6]   ; data_out[6] ; 13.356 ;        ;        ; 13.356 ;
+; port_in_14[7]   ; data_out[7] ; 12.382 ; 12.382 ; 12.382 ; 12.382 ;
+; port_in_15[0]   ; data_out[0] ; 14.106 ;        ;        ; 14.106 ;
+; port_in_15[1]   ; data_out[1] ; 12.723 ;        ;        ; 12.723 ;
+; port_in_15[2]   ; data_out[2] ; 14.668 ;        ;        ; 14.668 ;
+; port_in_15[3]   ; data_out[3] ; 12.202 ;        ;        ; 12.202 ;
+; port_in_15[4]   ; data_out[4] ; 11.577 ;        ;        ; 11.577 ;
+; port_in_15[5]   ; data_out[5] ; 14.498 ;        ;        ; 14.498 ;
+; port_in_15[6]   ; data_out[6] ; 13.780 ;        ;        ; 13.780 ;
+; port_in_15[7]   ; data_out[7] ; 12.831 ;        ;        ; 12.831 ;
+; rom_data_out[0] ; data_out[0] ; 10.407 ;        ;        ; 10.407 ;
+; rom_data_out[1] ; data_out[1] ; 11.307 ;        ;        ; 11.307 ;
+; rom_data_out[2] ; data_out[2] ; 11.075 ;        ;        ; 11.075 ;
+; rom_data_out[3] ; data_out[3] ; 14.394 ;        ;        ; 14.394 ;
+; rom_data_out[4] ; data_out[4] ; 11.513 ;        ;        ; 11.513 ;
+; rom_data_out[5] ; data_out[5] ; 8.549  ;        ;        ; 8.549  ;
+; rom_data_out[6] ; data_out[6] ; 11.241 ;        ;        ; 11.241 ;
+; rom_data_out[7] ; data_out[7] ; 10.931 ;        ;        ; 10.931 ;
+; rw_data_out[0]  ; data_out[0] ; 11.166 ;        ;        ; 11.166 ;
+; rw_data_out[1]  ; data_out[1] ; 10.897 ;        ;        ; 10.897 ;
+; rw_data_out[2]  ; data_out[2] ; 11.105 ;        ;        ; 11.105 ;
+; rw_data_out[3]  ; data_out[3] ; 13.935 ;        ;        ; 13.935 ;
+; rw_data_out[4]  ; data_out[4] ; 11.360 ;        ;        ; 11.360 ;
+; rw_data_out[5]  ; data_out[5] ; 8.205  ;        ;        ; 8.205  ;
+; rw_data_out[6]  ; data_out[6] ; 11.542 ;        ;        ; 11.542 ;
+; rw_data_out[7]  ; data_out[7] ; 11.452 ;        ;        ; 11.452 ;
++-----------------+-------------+--------+--------+--------+--------+
+
+
++-------------------------------------------------------------------+
+; Minimum Propagation Delay                                         ;
++-----------------+-------------+--------+--------+--------+--------+
+; Input Port      ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++-----------------+-------------+--------+--------+--------+--------+
+; address[0]      ; data_out[0] ; 14.822 ; 14.822 ; 14.822 ; 14.822 ;
+; address[0]      ; data_out[1] ; 13.731 ; 13.731 ; 13.731 ; 13.731 ;
+; address[0]      ; data_out[2] ; 16.657 ; 16.657 ; 16.657 ; 16.657 ;
+; address[0]      ; data_out[3] ; 12.466 ; 12.466 ; 12.466 ; 12.466 ;
+; address[0]      ; data_out[4] ; 17.372 ; 17.372 ; 17.372 ; 17.372 ;
+; address[0]      ; data_out[5] ; 16.115 ; 16.115 ; 16.115 ; 16.115 ;
+; address[0]      ; data_out[6] ; 16.749 ; 16.749 ; 16.749 ; 16.749 ;
+; address[0]      ; data_out[7] ; 13.826 ; 13.826 ; 13.826 ; 13.826 ;
+; address[1]      ; data_out[0] ; 14.327 ; 14.327 ; 14.327 ; 14.327 ;
+; address[1]      ; data_out[1] ; 12.759 ; 12.759 ; 12.759 ; 12.759 ;
+; address[1]      ; data_out[2] ; 15.719 ; 15.719 ; 15.719 ; 15.719 ;
+; address[1]      ; data_out[3] ; 13.469 ; 13.469 ; 13.469 ; 13.469 ;
+; address[1]      ; data_out[4] ; 16.911 ; 16.911 ; 16.911 ; 16.911 ;
+; address[1]      ; data_out[5] ; 13.025 ; 13.025 ; 13.025 ; 13.025 ;
+; address[1]      ; data_out[6] ; 14.993 ; 14.993 ; 14.993 ; 14.993 ;
+; address[1]      ; data_out[7] ; 13.092 ; 13.092 ; 13.092 ; 13.092 ;
+; address[2]      ; data_out[0] ; 14.328 ; 14.328 ; 14.328 ; 14.328 ;
+; address[2]      ; data_out[1] ; 14.256 ; 14.256 ; 14.256 ; 14.256 ;
+; address[2]      ; data_out[2] ; 15.016 ; 15.016 ; 15.016 ; 15.016 ;
+; address[2]      ; data_out[3] ; 12.939 ; 12.939 ; 12.939 ; 12.939 ;
+; address[2]      ; data_out[4] ; 17.823 ; 17.823 ; 17.823 ; 17.823 ;
+; address[2]      ; data_out[5] ; 14.759 ; 14.759 ; 14.759 ; 14.759 ;
+; address[2]      ; data_out[6] ; 13.846 ; 13.846 ; 13.846 ; 13.846 ;
+; address[2]      ; data_out[7] ; 12.720 ; 12.720 ; 12.720 ; 12.720 ;
+; address[3]      ; data_out[0] ; 8.428  ; 8.428  ; 8.428  ; 8.428  ;
+; address[3]      ; data_out[1] ; 10.287 ; 10.287 ; 10.287 ; 10.287 ;
+; address[3]      ; data_out[2] ; 11.899 ; 11.899 ; 11.899 ; 11.899 ;
+; address[3]      ; data_out[3] ; 9.532  ; 9.532  ; 9.532  ; 9.532  ;
+; address[3]      ; data_out[4] ; 12.500 ; 12.500 ; 12.500 ; 12.500 ;
+; address[3]      ; data_out[5] ; 10.066 ; 10.066 ; 10.066 ; 10.066 ;
+; address[3]      ; data_out[6] ; 10.473 ; 10.473 ; 10.473 ; 10.473 ;
+; address[3]      ; data_out[7] ; 9.235  ; 9.235  ; 9.235  ; 9.235  ;
+; address[4]      ; data_out[0] ; 10.948 ;        ;        ; 10.948 ;
+; address[4]      ; data_out[1] ; 11.502 ;        ;        ; 11.502 ;
+; address[4]      ; data_out[2] ; 11.276 ;        ;        ; 11.276 ;
+; address[4]      ; data_out[3] ; 14.736 ;        ;        ; 14.736 ;
+; address[4]      ; data_out[4] ; 11.287 ;        ;        ; 11.287 ;
+; address[4]      ; data_out[5] ; 11.321 ;        ;        ; 11.321 ;
+; address[4]      ; data_out[6] ; 11.320 ;        ;        ; 11.320 ;
+; address[4]      ; data_out[7] ; 13.864 ;        ;        ; 13.864 ;
+; address[5]      ; data_out[0] ; 10.944 ; 12.056 ; 12.056 ; 10.944 ;
+; address[5]      ; data_out[1] ; 11.498 ; 12.190 ; 12.190 ; 11.498 ;
+; address[5]      ; data_out[2] ; 11.272 ; 12.404 ; 12.404 ; 11.272 ;
+; address[5]      ; data_out[3] ; 14.732 ; 15.071 ; 15.071 ; 14.732 ;
+; address[5]      ; data_out[4] ; 11.283 ; 12.405 ; 12.405 ; 11.283 ;
+; address[5]      ; data_out[5] ; 11.317 ; 12.439 ; 12.439 ; 11.317 ;
+; address[5]      ; data_out[6] ; 11.316 ; 12.480 ; 12.480 ; 11.316 ;
+; address[5]      ; data_out[7] ; 13.860 ; 13.793 ; 13.793 ; 13.860 ;
+; address[6]      ; data_out[0] ; 10.639 ; 11.719 ; 11.719 ; 10.639 ;
+; address[6]      ; data_out[1] ; 11.193 ; 11.853 ; 11.853 ; 11.193 ;
+; address[6]      ; data_out[2] ; 10.967 ; 12.067 ; 12.067 ; 10.967 ;
+; address[6]      ; data_out[3] ; 14.427 ; 14.734 ; 14.734 ; 14.427 ;
+; address[6]      ; data_out[4] ; 10.978 ; 12.068 ; 12.068 ; 10.978 ;
+; address[6]      ; data_out[5] ; 11.012 ; 12.102 ; 12.102 ; 11.012 ;
+; address[6]      ; data_out[6] ; 11.011 ; 12.143 ; 12.143 ; 11.011 ;
+; address[6]      ; data_out[7] ; 13.555 ; 13.456 ; 13.456 ; 13.555 ;
+; address[7]      ; data_out[0] ; 11.772 ; 11.926 ; 11.926 ; 11.772 ;
+; address[7]      ; data_out[1] ; 12.326 ; 12.050 ; 12.050 ; 12.326 ;
+; address[7]      ; data_out[2] ; 12.100 ; 12.273 ; 12.273 ; 12.100 ;
+; address[7]      ; data_out[3] ; 15.560 ; 15.351 ; 15.351 ; 15.560 ;
+; address[7]      ; data_out[4] ; 12.111 ; 12.277 ; 12.277 ; 12.111 ;
+; address[7]      ; data_out[5] ; 12.145 ; 12.308 ; 12.308 ; 12.145 ;
+; address[7]      ; data_out[6] ; 12.144 ; 12.337 ; 12.337 ; 12.144 ;
+; address[7]      ; data_out[7] ; 14.600 ; 12.127 ; 12.127 ; 14.600 ;
+; port_in_00[0]   ; data_out[0] ; 15.754 ; 15.754 ; 15.754 ; 15.754 ;
+; port_in_00[1]   ; data_out[1] ; 14.599 ; 14.599 ; 14.599 ; 14.599 ;
+; port_in_00[2]   ; data_out[2] ; 16.570 ; 16.570 ; 16.570 ; 16.570 ;
+; port_in_00[3]   ; data_out[3] ; 14.782 ; 14.782 ; 14.782 ; 14.782 ;
+; port_in_00[4]   ; data_out[4] ; 18.220 ; 18.220 ; 18.220 ; 18.220 ;
+; port_in_00[5]   ; data_out[5] ; 15.731 ; 15.731 ; 15.731 ; 15.731 ;
+; port_in_00[6]   ; data_out[6] ; 15.805 ; 15.805 ; 15.805 ; 15.805 ;
+; port_in_00[7]   ; data_out[7] ; 13.458 ; 13.458 ; 13.458 ; 13.458 ;
+; port_in_01[0]   ; data_out[0] ; 15.496 ; 15.496 ; 15.496 ; 15.496 ;
+; port_in_01[1]   ; data_out[1] ; 14.609 ; 14.609 ; 14.609 ; 14.609 ;
+; port_in_01[2]   ; data_out[2] ; 15.644 ; 15.644 ; 15.644 ; 15.644 ;
+; port_in_01[3]   ; data_out[3] ; 13.783 ; 13.783 ; 13.783 ; 13.783 ;
+; port_in_01[4]   ; data_out[4] ; 19.211 ; 19.211 ; 19.211 ; 19.211 ;
+; port_in_01[5]   ; data_out[5] ; 15.647 ; 15.647 ; 15.647 ; 15.647 ;
+; port_in_01[6]   ; data_out[6] ; 14.563 ; 14.563 ; 14.563 ; 14.563 ;
+; port_in_01[7]   ; data_out[7] ; 12.766 ; 12.766 ; 12.766 ; 12.766 ;
+; port_in_02[0]   ; data_out[0] ; 14.561 ; 14.561 ; 14.561 ; 14.561 ;
+; port_in_02[1]   ; data_out[1] ; 13.292 ; 13.292 ; 13.292 ; 13.292 ;
+; port_in_02[2]   ; data_out[2] ; 16.225 ; 16.225 ; 16.225 ; 16.225 ;
+; port_in_02[3]   ; data_out[3] ; 13.857 ; 13.857 ; 13.857 ; 13.857 ;
+; port_in_02[4]   ; data_out[4] ; 18.041 ; 18.041 ; 18.041 ; 18.041 ;
+; port_in_02[5]   ; data_out[5] ; 14.837 ; 14.837 ; 14.837 ; 14.837 ;
+; port_in_02[6]   ; data_out[6] ; 15.747 ; 15.747 ; 15.747 ; 15.747 ;
+; port_in_02[7]   ; data_out[7] ; 14.000 ; 14.000 ; 14.000 ; 14.000 ;
+; port_in_03[0]   ; data_out[0] ; 14.767 ; 14.767 ; 14.767 ; 14.767 ;
+; port_in_03[1]   ; data_out[1] ; 13.538 ; 13.538 ; 13.538 ; 13.538 ;
+; port_in_03[2]   ; data_out[2] ; 15.475 ; 15.475 ; 15.475 ; 15.475 ;
+; port_in_03[3]   ; data_out[3] ; 13.567 ; 13.567 ; 13.567 ; 13.567 ;
+; port_in_03[4]   ; data_out[4] ; 18.195 ; 18.195 ; 18.195 ; 18.195 ;
+; port_in_03[5]   ; data_out[5] ; 15.002 ; 15.002 ; 15.002 ; 15.002 ;
+; port_in_03[6]   ; data_out[6] ; 14.761 ; 14.761 ; 14.761 ; 14.761 ;
+; port_in_03[7]   ; data_out[7] ; 13.007 ; 13.007 ; 13.007 ; 13.007 ;
+; port_in_04[0]   ; data_out[0] ; 10.504 ; 10.504 ; 10.504 ; 10.504 ;
+; port_in_04[1]   ; data_out[1] ; 13.627 ; 13.627 ; 13.627 ; 13.627 ;
+; port_in_04[2]   ; data_out[2] ; 14.615 ; 14.615 ; 14.615 ; 14.615 ;
+; port_in_04[3]   ; data_out[3] ; 14.422 ; 14.422 ; 14.422 ; 14.422 ;
+; port_in_04[4]   ; data_out[4] ; 18.756 ; 18.756 ; 18.756 ; 18.756 ;
+; port_in_04[5]   ; data_out[5] ; 14.785 ; 14.785 ; 14.785 ; 14.785 ;
+; port_in_04[6]   ; data_out[6] ; 14.598 ; 14.598 ; 14.598 ; 14.598 ;
+; port_in_04[7]   ; data_out[7] ; 13.257 ; 13.257 ; 13.257 ; 13.257 ;
+; port_in_05[0]   ; data_out[0] ; 10.005 ; 10.005 ; 10.005 ; 10.005 ;
+; port_in_05[1]   ; data_out[1] ; 14.283 ; 14.283 ; 14.283 ; 14.283 ;
+; port_in_05[2]   ; data_out[2] ; 14.762 ; 14.762 ; 14.762 ; 14.762 ;
+; port_in_05[3]   ; data_out[3] ; 11.955 ;        ;        ; 11.955 ;
+; port_in_05[4]   ; data_out[4] ; 17.665 ; 17.665 ; 17.665 ; 17.665 ;
+; port_in_05[5]   ; data_out[5] ; 15.501 ; 15.501 ; 15.501 ; 15.501 ;
+; port_in_05[6]   ; data_out[6] ; 14.129 ; 14.129 ; 14.129 ; 14.129 ;
+; port_in_05[7]   ; data_out[7] ; 12.560 ;        ;        ; 12.560 ;
+; port_in_06[0]   ; data_out[0] ; 10.766 ; 10.766 ; 10.766 ; 10.766 ;
+; port_in_06[1]   ; data_out[1] ; 13.236 ;        ;        ; 13.236 ;
+; port_in_06[2]   ; data_out[2] ; 14.148 ;        ;        ; 14.148 ;
+; port_in_06[3]   ; data_out[3] ; 14.064 ; 14.064 ; 14.064 ; 14.064 ;
+; port_in_06[4]   ; data_out[4] ; 18.611 ; 18.611 ; 18.611 ; 18.611 ;
+; port_in_06[5]   ; data_out[5] ; 14.100 ;        ;        ; 14.100 ;
+; port_in_06[6]   ; data_out[6] ; 13.456 ;        ;        ; 13.456 ;
+; port_in_06[7]   ; data_out[7] ; 13.060 ; 13.060 ; 13.060 ; 13.060 ;
+; port_in_07[0]   ; data_out[0] ; 15.274 ; 15.274 ; 15.274 ; 15.274 ;
+; port_in_07[1]   ; data_out[1] ; 13.781 ; 13.781 ; 13.781 ; 13.781 ;
+; port_in_07[2]   ; data_out[2] ; 14.051 ;        ;        ; 14.051 ;
+; port_in_07[3]   ; data_out[3] ; 11.791 ;        ;        ; 11.791 ;
+; port_in_07[4]   ; data_out[4] ; 17.547 ; 17.547 ; 17.547 ; 17.547 ;
+; port_in_07[5]   ; data_out[5] ; 15.207 ; 15.207 ; 15.207 ; 15.207 ;
+; port_in_07[6]   ; data_out[6] ; 14.409 ;        ;        ; 14.409 ;
+; port_in_07[7]   ; data_out[7] ; 11.739 ;        ;        ; 11.739 ;
+; port_in_08[0]   ; data_out[0] ; 15.571 ; 15.571 ; 15.571 ; 15.571 ;
+; port_in_08[1]   ; data_out[1] ; 14.749 ; 14.749 ; 14.749 ; 14.749 ;
+; port_in_08[2]   ; data_out[2] ; 16.004 ; 16.004 ; 16.004 ; 16.004 ;
+; port_in_08[3]   ; data_out[3] ; 13.438 ; 13.438 ; 13.438 ; 13.438 ;
+; port_in_08[4]   ; data_out[4] ; 16.116 ; 16.116 ; 16.116 ; 16.116 ;
+; port_in_08[5]   ; data_out[5] ; 15.427 ; 15.427 ; 15.427 ; 15.427 ;
+; port_in_08[6]   ; data_out[6] ; 15.645 ; 15.645 ; 15.645 ; 15.645 ;
+; port_in_08[7]   ; data_out[7] ; 12.633 ; 12.633 ; 12.633 ; 12.633 ;
+; port_in_09[0]   ; data_out[0] ; 15.467 ; 15.467 ; 15.467 ; 15.467 ;
+; port_in_09[1]   ; data_out[1] ; 13.408 ; 13.408 ; 13.408 ; 13.408 ;
+; port_in_09[2]   ; data_out[2] ; 15.874 ; 15.874 ; 15.874 ; 15.874 ;
+; port_in_09[3]   ; data_out[3] ; 13.800 ; 13.800 ; 13.800 ; 13.800 ;
+; port_in_09[4]   ; data_out[4] ; 15.893 ; 15.893 ; 15.893 ; 15.893 ;
+; port_in_09[5]   ; data_out[5] ; 15.012 ; 15.012 ; 15.012 ; 15.012 ;
+; port_in_09[6]   ; data_out[6] ; 14.653 ; 14.653 ; 14.653 ; 14.653 ;
+; port_in_09[7]   ; data_out[7] ; 13.716 ; 13.716 ; 13.716 ; 13.716 ;
+; port_in_10[0]   ; data_out[0] ; 14.521 ;        ;        ; 14.521 ;
+; port_in_10[1]   ; data_out[1] ; 13.485 ; 13.485 ; 13.485 ; 13.485 ;
+; port_in_10[2]   ; data_out[2] ; 15.831 ; 15.831 ; 15.831 ; 15.831 ;
+; port_in_10[3]   ; data_out[3] ; 13.237 ; 13.237 ; 13.237 ; 13.237 ;
+; port_in_10[4]   ; data_out[4] ; 15.310 ;        ;        ; 15.310 ;
+; port_in_10[5]   ; data_out[5] ; 14.978 ; 14.978 ; 14.978 ; 14.978 ;
+; port_in_10[6]   ; data_out[6] ; 15.086 ; 15.086 ; 15.086 ; 15.086 ;
+; port_in_10[7]   ; data_out[7] ; 12.512 ; 12.512 ; 12.512 ; 12.512 ;
+; port_in_11[0]   ; data_out[0] ; 14.666 ;        ;        ; 14.666 ;
+; port_in_11[1]   ; data_out[1] ; 13.284 ;        ;        ; 13.284 ;
+; port_in_11[2]   ; data_out[2] ; 14.974 ; 14.974 ; 14.974 ; 14.974 ;
+; port_in_11[3]   ; data_out[3] ; 13.330 ; 13.330 ; 13.330 ; 13.330 ;
+; port_in_11[4]   ; data_out[4] ; 15.674 ;        ;        ; 15.674 ;
+; port_in_11[5]   ; data_out[5] ; 14.269 ;        ;        ; 14.269 ;
+; port_in_11[6]   ; data_out[6] ; 13.750 ; 13.750 ; 13.750 ; 13.750 ;
+; port_in_11[7]   ; data_out[7] ; 13.163 ; 13.163 ; 13.163 ; 13.163 ;
+; port_in_12[0]   ; data_out[0] ; 14.992 ; 14.992 ; 14.992 ; 14.992 ;
+; port_in_12[1]   ; data_out[1] ; 13.926 ; 13.926 ; 13.926 ; 13.926 ;
+; port_in_12[2]   ; data_out[2] ; 15.669 ; 15.669 ; 15.669 ; 15.669 ;
+; port_in_12[3]   ; data_out[3] ; 14.117 ; 14.117 ; 14.117 ; 14.117 ;
+; port_in_12[4]   ; data_out[4] ; 12.448 ; 12.448 ; 12.448 ; 12.448 ;
+; port_in_12[5]   ; data_out[5] ; 14.765 ; 14.765 ; 14.765 ; 14.765 ;
+; port_in_12[6]   ; data_out[6] ; 13.893 ; 13.893 ; 13.893 ; 13.893 ;
+; port_in_12[7]   ; data_out[7] ; 12.436 ; 12.436 ; 12.436 ; 12.436 ;
+; port_in_13[0]   ; data_out[0] ; 14.443 ;        ;        ; 14.443 ;
+; port_in_13[1]   ; data_out[1] ; 13.835 ; 13.835 ; 13.835 ; 13.835 ;
+; port_in_13[2]   ; data_out[2] ; 15.040 ; 15.040 ; 15.040 ; 15.040 ;
+; port_in_13[3]   ; data_out[3] ; 12.619 ;        ;        ; 12.619 ;
+; port_in_13[4]   ; data_out[4] ; 16.497 ;        ;        ; 16.497 ;
+; port_in_13[5]   ; data_out[5] ; 15.070 ; 15.070 ; 15.070 ; 15.070 ;
+; port_in_13[6]   ; data_out[6] ; 14.185 ; 14.185 ; 14.185 ; 14.185 ;
+; port_in_13[7]   ; data_out[7] ; 12.513 ;        ;        ; 12.513 ;
+; port_in_14[0]   ; data_out[0] ; 14.638 ; 14.638 ; 14.638 ; 14.638 ;
+; port_in_14[1]   ; data_out[1] ; 13.357 ;        ;        ; 13.357 ;
+; port_in_14[2]   ; data_out[2] ; 14.731 ;        ;        ; 14.731 ;
+; port_in_14[3]   ; data_out[3] ; 13.082 ; 13.082 ; 13.082 ; 13.082 ;
+; port_in_14[4]   ; data_out[4] ; 16.676 ; 16.676 ; 16.676 ; 16.676 ;
+; port_in_14[5]   ; data_out[5] ; 14.204 ;        ;        ; 14.204 ;
+; port_in_14[6]   ; data_out[6] ; 13.356 ;        ;        ; 13.356 ;
+; port_in_14[7]   ; data_out[7] ; 12.382 ; 12.382 ; 12.382 ; 12.382 ;
+; port_in_15[0]   ; data_out[0] ; 14.106 ;        ;        ; 14.106 ;
+; port_in_15[1]   ; data_out[1] ; 12.723 ;        ;        ; 12.723 ;
+; port_in_15[2]   ; data_out[2] ; 14.668 ;        ;        ; 14.668 ;
+; port_in_15[3]   ; data_out[3] ; 12.202 ;        ;        ; 12.202 ;
+; port_in_15[4]   ; data_out[4] ; 11.577 ;        ;        ; 11.577 ;
+; port_in_15[5]   ; data_out[5] ; 14.498 ;        ;        ; 14.498 ;
+; port_in_15[6]   ; data_out[6] ; 13.780 ;        ;        ; 13.780 ;
+; port_in_15[7]   ; data_out[7] ; 12.831 ;        ;        ; 12.831 ;
+; rom_data_out[0] ; data_out[0] ; 10.407 ;        ;        ; 10.407 ;
+; rom_data_out[1] ; data_out[1] ; 11.307 ;        ;        ; 11.307 ;
+; rom_data_out[2] ; data_out[2] ; 11.075 ;        ;        ; 11.075 ;
+; rom_data_out[3] ; data_out[3] ; 14.394 ;        ;        ; 14.394 ;
+; rom_data_out[4] ; data_out[4] ; 11.513 ;        ;        ; 11.513 ;
+; rom_data_out[5] ; data_out[5] ; 8.549  ;        ;        ; 8.549  ;
+; rom_data_out[6] ; data_out[6] ; 11.241 ;        ;        ; 11.241 ;
+; rom_data_out[7] ; data_out[7] ; 10.931 ;        ;        ; 10.931 ;
+; rw_data_out[0]  ; data_out[0] ; 11.166 ;        ;        ; 11.166 ;
+; rw_data_out[1]  ; data_out[1] ; 10.897 ;        ;        ; 10.897 ;
+; rw_data_out[2]  ; data_out[2] ; 11.105 ;        ;        ; 11.105 ;
+; rw_data_out[3]  ; data_out[3] ; 13.935 ;        ;        ; 13.935 ;
+; rw_data_out[4]  ; data_out[4] ; 11.360 ;        ;        ; 11.360 ;
+; rw_data_out[5]  ; data_out[5] ; 8.205  ;        ;        ; 8.205  ;
+; rw_data_out[6]  ; data_out[6] ; 11.542 ;        ;        ; 11.542 ;
+; rw_data_out[7]  ; data_out[7] ; 11.452 ;        ;        ; 11.452 ;
++-----------------+-------------+--------+--------+--------+--------+
+
+
+----------------------------
+; Fast Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Fast Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Fast Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Fast Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Fast Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++---------------------------------------------------------------+
+; Propagation Delay                                             ;
++-----------------+-------------+-------+-------+-------+-------+
+; Input Port      ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++-----------------+-------------+-------+-------+-------+-------+
+; address[0]      ; data_out[0] ; 7.368 ; 7.368 ; 7.368 ; 7.368 ;
+; address[0]      ; data_out[1] ; 6.148 ; 6.148 ; 6.148 ; 6.148 ;
+; address[0]      ; data_out[2] ; 7.623 ; 7.623 ; 7.623 ; 7.623 ;
+; address[0]      ; data_out[3] ; 6.273 ; 6.273 ; 6.273 ; 6.273 ;
+; address[0]      ; data_out[4] ; 8.741 ; 8.741 ; 8.741 ; 8.741 ;
+; address[0]      ; data_out[5] ; 7.099 ; 7.099 ; 7.099 ; 7.099 ;
+; address[0]      ; data_out[6] ; 7.664 ; 7.664 ; 7.664 ; 7.664 ;
+; address[0]      ; data_out[7] ; 6.508 ; 6.508 ; 6.508 ; 6.508 ;
+; address[1]      ; data_out[0] ; 7.097 ; 7.097 ; 7.097 ; 7.097 ;
+; address[1]      ; data_out[1] ; 6.025 ; 6.025 ; 6.025 ; 6.025 ;
+; address[1]      ; data_out[2] ; 7.559 ; 7.559 ; 7.559 ; 7.559 ;
+; address[1]      ; data_out[3] ; 6.138 ; 6.138 ; 6.138 ; 6.138 ;
+; address[1]      ; data_out[4] ; 8.259 ; 8.259 ; 8.259 ; 8.259 ;
+; address[1]      ; data_out[5] ; 6.193 ; 6.193 ; 6.193 ; 6.193 ;
+; address[1]      ; data_out[6] ; 7.245 ; 7.245 ; 7.245 ; 7.245 ;
+; address[1]      ; data_out[7] ; 5.963 ; 5.963 ; 5.963 ; 5.963 ;
+; address[2]      ; data_out[0] ; 6.335 ; 6.335 ; 6.335 ; 6.335 ;
+; address[2]      ; data_out[1] ; 6.965 ; 6.965 ; 6.965 ; 6.965 ;
+; address[2]      ; data_out[2] ; 6.883 ; 6.883 ; 6.883 ; 6.883 ;
+; address[2]      ; data_out[3] ; 6.541 ; 6.541 ; 6.541 ; 6.541 ;
+; address[2]      ; data_out[4] ; 7.586 ; 7.586 ; 7.586 ; 7.586 ;
+; address[2]      ; data_out[5] ; 7.035 ; 7.035 ; 7.035 ; 7.035 ;
+; address[2]      ; data_out[6] ; 6.388 ; 6.388 ; 6.388 ; 6.388 ;
+; address[2]      ; data_out[7] ; 6.234 ; 6.234 ; 6.234 ; 6.234 ;
+; address[3]      ; data_out[0] ; 3.721 ; 3.721 ; 3.721 ; 3.721 ;
+; address[3]      ; data_out[1] ; 4.548 ; 4.548 ; 4.548 ; 4.548 ;
+; address[3]      ; data_out[2] ; 4.750 ; 4.750 ; 4.750 ; 4.750 ;
+; address[3]      ; data_out[3] ; 4.240 ; 4.240 ; 4.240 ; 4.240 ;
+; address[3]      ; data_out[4] ; 5.476 ; 5.476 ; 5.476 ; 5.476 ;
+; address[3]      ; data_out[5] ; 4.563 ; 4.563 ; 4.563 ; 4.563 ;
+; address[3]      ; data_out[6] ; 4.236 ; 4.236 ; 4.236 ; 4.236 ;
+; address[3]      ; data_out[7] ; 4.120 ; 4.120 ; 4.120 ; 4.120 ;
+; address[4]      ; data_out[0] ; 5.096 ;       ;       ; 5.096 ;
+; address[4]      ; data_out[1] ; 5.274 ;       ;       ; 5.274 ;
+; address[4]      ; data_out[2] ; 5.189 ;       ;       ; 5.189 ;
+; address[4]      ; data_out[3] ; 6.632 ;       ;       ; 6.632 ;
+; address[4]      ; data_out[4] ; 5.200 ;       ;       ; 5.200 ;
+; address[4]      ; data_out[5] ; 5.232 ;       ;       ; 5.232 ;
+; address[4]      ; data_out[6] ; 5.229 ;       ;       ; 5.229 ;
+; address[4]      ; data_out[7] ; 6.185 ;       ;       ; 6.185 ;
+; address[5]      ; data_out[0] ; 5.102 ; 5.429 ; 5.429 ; 5.102 ;
+; address[5]      ; data_out[1] ; 5.280 ; 5.503 ; 5.503 ; 5.280 ;
+; address[5]      ; data_out[2] ; 5.195 ; 5.537 ; 5.537 ; 5.195 ;
+; address[5]      ; data_out[3] ; 6.638 ; 6.645 ; 6.645 ; 6.638 ;
+; address[5]      ; data_out[4] ; 5.206 ; 5.547 ; 5.547 ; 5.206 ;
+; address[5]      ; data_out[5] ; 5.238 ; 5.572 ; 5.572 ; 5.238 ;
+; address[5]      ; data_out[6] ; 5.235 ; 5.580 ; 5.580 ; 5.235 ;
+; address[5]      ; data_out[7] ; 6.191 ; 6.148 ; 6.148 ; 6.191 ;
+; address[6]      ; data_out[0] ; 5.004 ; 5.336 ; 5.336 ; 5.004 ;
+; address[6]      ; data_out[1] ; 5.182 ; 5.410 ; 5.410 ; 5.182 ;
+; address[6]      ; data_out[2] ; 5.097 ; 5.444 ; 5.444 ; 5.097 ;
+; address[6]      ; data_out[3] ; 6.540 ; 6.552 ; 6.552 ; 6.540 ;
+; address[6]      ; data_out[4] ; 5.108 ; 5.454 ; 5.454 ; 5.108 ;
+; address[6]      ; data_out[5] ; 5.140 ; 5.479 ; 5.479 ; 5.140 ;
+; address[6]      ; data_out[6] ; 5.137 ; 5.487 ; 5.487 ; 5.137 ;
+; address[6]      ; data_out[7] ; 6.093 ; 6.055 ; 6.055 ; 6.093 ;
+; address[7]      ; data_out[0] ; 5.776 ; 5.452 ; 5.452 ; 5.776 ;
+; address[7]      ; data_out[1] ; 5.850 ; 5.515 ; 5.515 ; 5.850 ;
+; address[7]      ; data_out[2] ; 5.884 ; 5.557 ; 5.557 ; 5.884 ;
+; address[7]      ; data_out[3] ; 6.992 ; 6.800 ; 6.800 ; 6.992 ;
+; address[7]      ; data_out[4] ; 5.894 ; 5.567 ; 5.567 ; 5.894 ;
+; address[7]      ; data_out[5] ; 5.919 ; 5.590 ; 5.590 ; 5.919 ;
+; address[7]      ; data_out[6] ; 5.927 ; 5.594 ; 5.594 ; 5.927 ;
+; address[7]      ; data_out[7] ; 6.527 ; 5.586 ; 5.586 ; 6.527 ;
+; port_in_00[0]   ; data_out[0] ; 6.686 ; 6.686 ; 6.686 ; 6.686 ;
+; port_in_00[1]   ; data_out[1] ; 6.326 ; 6.326 ; 6.326 ; 6.326 ;
+; port_in_00[2]   ; data_out[2] ; 7.046 ; 7.046 ; 7.046 ; 7.046 ;
+; port_in_00[3]   ; data_out[3] ; 6.428 ; 6.428 ; 6.428 ; 6.428 ;
+; port_in_00[4]   ; data_out[4] ; 7.646 ; 7.646 ; 7.646 ; 7.646 ;
+; port_in_00[5]   ; data_out[5] ; 6.724 ; 6.724 ; 6.724 ; 6.724 ;
+; port_in_00[6]   ; data_out[6] ; 6.763 ; 6.763 ; 6.763 ; 6.763 ;
+; port_in_00[7]   ; data_out[7] ; 5.954 ; 5.954 ; 5.954 ; 5.954 ;
+; port_in_01[0]   ; data_out[0] ; 6.585 ; 6.585 ; 6.585 ; 6.585 ;
+; port_in_01[1]   ; data_out[1] ; 6.344 ; 6.344 ; 6.344 ; 6.344 ;
+; port_in_01[2]   ; data_out[2] ; 6.771 ; 6.771 ; 6.771 ; 6.771 ;
+; port_in_01[3]   ; data_out[3] ; 6.097 ; 6.097 ; 6.097 ; 6.097 ;
+; port_in_01[4]   ; data_out[4] ; 7.957 ; 7.957 ; 7.957 ; 7.957 ;
+; port_in_01[5]   ; data_out[5] ; 6.711 ; 6.711 ; 6.711 ; 6.711 ;
+; port_in_01[6]   ; data_out[6] ; 6.336 ; 6.336 ; 6.336 ; 6.336 ;
+; port_in_01[7]   ; data_out[7] ; 5.712 ; 5.712 ; 5.712 ; 5.712 ;
+; port_in_02[0]   ; data_out[0] ; 6.307 ; 6.307 ; 6.307 ; 6.307 ;
+; port_in_02[1]   ; data_out[1] ; 5.928 ; 5.928 ; 5.928 ; 5.928 ;
+; port_in_02[2]   ; data_out[2] ; 6.938 ; 6.938 ; 6.938 ; 6.938 ;
+; port_in_02[3]   ; data_out[3] ; 6.120 ; 6.120 ; 6.120 ; 6.120 ;
+; port_in_02[4]   ; data_out[4] ; 7.559 ; 7.559 ; 7.559 ; 7.559 ;
+; port_in_02[5]   ; data_out[5] ; 6.444 ; 6.444 ; 6.444 ; 6.444 ;
+; port_in_02[6]   ; data_out[6] ; 6.764 ; 6.764 ; 6.764 ; 6.764 ;
+; port_in_02[7]   ; data_out[7] ; 6.119 ; 6.119 ; 6.119 ; 6.119 ;
+; port_in_03[0]   ; data_out[0] ; 6.398 ; 6.398 ; 6.398 ; 6.398 ;
+; port_in_03[1]   ; data_out[1] ; 6.016 ; 6.016 ; 6.016 ; 6.016 ;
+; port_in_03[2]   ; data_out[2] ; 6.699 ; 6.699 ; 6.699 ; 6.699 ;
+; port_in_03[3]   ; data_out[3] ; 6.091 ; 6.091 ; 6.091 ; 6.091 ;
+; port_in_03[4]   ; data_out[4] ; 7.598 ; 7.598 ; 7.598 ; 7.598 ;
+; port_in_03[5]   ; data_out[5] ; 6.501 ; 6.501 ; 6.501 ; 6.501 ;
+; port_in_03[6]   ; data_out[6] ; 6.454 ; 6.454 ; 6.454 ; 6.454 ;
+; port_in_03[7]   ; data_out[7] ; 5.804 ; 5.804 ; 5.804 ; 5.804 ;
+; port_in_04[0]   ; data_out[0] ; 4.062 ; 4.062 ; 4.062 ; 4.062 ;
+; port_in_04[1]   ; data_out[1] ; 6.036 ; 6.036 ; 6.036 ; 6.036 ;
+; port_in_04[2]   ; data_out[2] ; 6.419 ; 6.419 ; 6.419 ; 6.419 ;
+; port_in_04[3]   ; data_out[3] ; 6.295 ; 6.295 ; 6.295 ; 6.295 ;
+; port_in_04[4]   ; data_out[4] ; 7.883 ; 7.883 ; 7.883 ; 7.883 ;
+; port_in_04[5]   ; data_out[5] ; 6.474 ; 6.474 ; 6.474 ; 6.474 ;
+; port_in_04[6]   ; data_out[6] ; 6.363 ; 6.363 ; 6.363 ; 6.363 ;
+; port_in_04[7]   ; data_out[7] ; 5.875 ; 5.875 ; 5.875 ; 5.875 ;
+; port_in_05[0]   ; data_out[0] ; 3.920 ; 3.920 ; 3.920 ; 3.920 ;
+; port_in_05[1]   ; data_out[1] ; 6.252 ; 6.252 ; 6.252 ; 6.252 ;
+; port_in_05[2]   ; data_out[2] ; 6.461 ; 6.461 ; 6.461 ; 6.461 ;
+; port_in_05[3]   ; data_out[3] ; 5.509 ;       ;       ; 5.509 ;
+; port_in_05[4]   ; data_out[4] ; 7.465 ; 7.465 ; 7.465 ; 7.465 ;
+; port_in_05[5]   ; data_out[5] ; 6.684 ; 6.684 ; 6.684 ; 6.684 ;
+; port_in_05[6]   ; data_out[6] ; 6.204 ; 6.204 ; 6.204 ; 6.204 ;
+; port_in_05[7]   ; data_out[7] ; 5.658 ;       ;       ; 5.658 ;
+; port_in_06[0]   ; data_out[0] ; 4.169 ; 4.169 ; 4.169 ; 4.169 ;
+; port_in_06[1]   ; data_out[1] ; 5.936 ;       ;       ; 5.936 ;
+; port_in_06[2]   ; data_out[2] ; 6.272 ;       ;       ; 6.272 ;
+; port_in_06[3]   ; data_out[3] ; 6.248 ; 6.248 ; 6.248 ; 6.248 ;
+; port_in_06[4]   ; data_out[4] ; 7.779 ; 7.779 ; 7.779 ; 7.779 ;
+; port_in_06[5]   ; data_out[5] ; 6.229 ;       ;       ; 6.229 ;
+; port_in_06[6]   ; data_out[6] ; 5.986 ;       ;       ; 5.986 ;
+; port_in_06[7]   ; data_out[7] ; 5.809 ; 5.809 ; 5.809 ; 5.809 ;
+; port_in_07[0]   ; data_out[0] ; 6.607 ; 6.607 ; 6.607 ; 6.607 ;
+; port_in_07[1]   ; data_out[1] ; 6.088 ; 6.088 ; 6.088 ; 6.088 ;
+; port_in_07[2]   ; data_out[2] ; 6.244 ;       ;       ; 6.244 ;
+; port_in_07[3]   ; data_out[3] ; 5.474 ;       ;       ; 5.474 ;
+; port_in_07[4]   ; data_out[4] ; 7.431 ; 7.431 ; 7.431 ; 7.431 ;
+; port_in_07[5]   ; data_out[5] ; 6.577 ; 6.577 ; 6.577 ; 6.577 ;
+; port_in_07[6]   ; data_out[6] ; 6.298 ;       ;       ; 6.298 ;
+; port_in_07[7]   ; data_out[7] ; 5.387 ;       ;       ; 5.387 ;
+; port_in_08[0]   ; data_out[0] ; 6.724 ; 6.724 ; 6.724 ; 6.724 ;
+; port_in_08[1]   ; data_out[1] ; 6.399 ; 6.399 ; 6.399 ; 6.399 ;
+; port_in_08[2]   ; data_out[2] ; 6.866 ; 6.866 ; 6.866 ; 6.866 ;
+; port_in_08[3]   ; data_out[3] ; 5.988 ; 5.988 ; 5.988 ; 5.988 ;
+; port_in_08[4]   ; data_out[4] ; 6.900 ; 6.900 ; 6.900 ; 6.900 ;
+; port_in_08[5]   ; data_out[5] ; 6.604 ; 6.604 ; 6.604 ; 6.604 ;
+; port_in_08[6]   ; data_out[6] ; 6.728 ; 6.728 ; 6.728 ; 6.728 ;
+; port_in_08[7]   ; data_out[7] ; 5.730 ; 5.730 ; 5.730 ; 5.730 ;
+; port_in_09[0]   ; data_out[0] ; 6.710 ; 6.710 ; 6.710 ; 6.710 ;
+; port_in_09[1]   ; data_out[1] ; 5.964 ; 5.964 ; 5.964 ; 5.964 ;
+; port_in_09[2]   ; data_out[2] ; 6.839 ; 6.839 ; 6.839 ; 6.839 ;
+; port_in_09[3]   ; data_out[3] ; 6.125 ; 6.125 ; 6.125 ; 6.125 ;
+; port_in_09[4]   ; data_out[4] ; 6.827 ; 6.827 ; 6.827 ; 6.827 ;
+; port_in_09[5]   ; data_out[5] ; 6.502 ; 6.502 ; 6.502 ; 6.502 ;
+; port_in_09[6]   ; data_out[6] ; 6.419 ; 6.419 ; 6.419 ; 6.419 ;
+; port_in_09[7]   ; data_out[7] ; 6.030 ; 6.030 ; 6.030 ; 6.030 ;
+; port_in_10[0]   ; data_out[0] ; 6.364 ;       ;       ; 6.364 ;
+; port_in_10[1]   ; data_out[1] ; 5.997 ; 5.997 ; 5.997 ; 5.997 ;
+; port_in_10[2]   ; data_out[2] ; 6.803 ; 6.803 ; 6.803 ; 6.803 ;
+; port_in_10[3]   ; data_out[3] ; 5.936 ; 5.936 ; 5.936 ; 5.936 ;
+; port_in_10[4]   ; data_out[4] ; 6.646 ;       ;       ; 6.646 ;
+; port_in_10[5]   ; data_out[5] ; 6.528 ; 6.528 ; 6.528 ; 6.528 ;
+; port_in_10[6]   ; data_out[6] ; 6.514 ; 6.514 ; 6.514 ; 6.514 ;
+; port_in_10[7]   ; data_out[7] ; 5.631 ; 5.631 ; 5.631 ; 5.631 ;
+; port_in_11[0]   ; data_out[0] ; 6.423 ;       ;       ; 6.423 ;
+; port_in_11[1]   ; data_out[1] ; 5.922 ;       ;       ; 5.922 ;
+; port_in_11[2]   ; data_out[2] ; 6.546 ; 6.546 ; 6.546 ; 6.546 ;
+; port_in_11[3]   ; data_out[3] ; 5.961 ; 5.961 ; 5.961 ; 5.961 ;
+; port_in_11[4]   ; data_out[4] ; 6.762 ;       ;       ; 6.762 ;
+; port_in_11[5]   ; data_out[5] ; 6.267 ;       ;       ; 6.267 ;
+; port_in_11[6]   ; data_out[6] ; 6.089 ; 6.089 ; 6.089 ; 6.089 ;
+; port_in_11[7]   ; data_out[7] ; 5.870 ; 5.870 ; 5.870 ; 5.870 ;
+; port_in_12[0]   ; data_out[0] ; 6.449 ; 6.449 ; 6.449 ; 6.449 ;
+; port_in_12[1]   ; data_out[1] ; 6.124 ; 6.124 ; 6.124 ; 6.124 ;
+; port_in_12[2]   ; data_out[2] ; 6.762 ; 6.762 ; 6.762 ; 6.762 ;
+; port_in_12[3]   ; data_out[3] ; 6.297 ; 6.297 ; 6.297 ; 6.297 ;
+; port_in_12[4]   ; data_out[4] ; 4.811 ; 4.811 ; 4.811 ; 4.811 ;
+; port_in_12[5]   ; data_out[5] ; 6.435 ; 6.435 ; 6.435 ; 6.435 ;
+; port_in_12[6]   ; data_out[6] ; 6.139 ; 6.139 ; 6.139 ; 6.139 ;
+; port_in_12[7]   ; data_out[7] ; 5.613 ; 5.613 ; 5.613 ; 5.613 ;
+; port_in_13[0]   ; data_out[0] ; 6.287 ;       ;       ; 6.287 ;
+; port_in_13[1]   ; data_out[1] ; 6.106 ; 6.106 ; 6.106 ; 6.106 ;
+; port_in_13[2]   ; data_out[2] ; 6.554 ; 6.554 ; 6.554 ; 6.554 ;
+; port_in_13[3]   ; data_out[3] ; 5.788 ;       ;       ; 5.788 ;
+; port_in_13[4]   ; data_out[4] ; 7.023 ;       ;       ; 7.023 ;
+; port_in_13[5]   ; data_out[5] ; 6.525 ; 6.525 ; 6.525 ; 6.525 ;
+; port_in_13[6]   ; data_out[6] ; 6.217 ; 6.217 ; 6.217 ; 6.217 ;
+; port_in_13[7]   ; data_out[7] ; 5.663 ;       ;       ; 5.663 ;
+; port_in_14[0]   ; data_out[0] ; 6.319 ; 6.319 ; 6.319 ; 6.319 ;
+; port_in_14[1]   ; data_out[1] ; 5.960 ;       ;       ; 5.960 ;
+; port_in_14[2]   ; data_out[2] ; 6.465 ;       ;       ; 6.465 ;
+; port_in_14[3]   ; data_out[3] ; 5.895 ; 5.895 ; 5.895 ; 5.895 ;
+; port_in_14[4]   ; data_out[4] ; 7.079 ; 7.079 ; 7.079 ; 7.079 ;
+; port_in_14[5]   ; data_out[5] ; 6.265 ;       ;       ; 6.265 ;
+; port_in_14[6]   ; data_out[6] ; 5.959 ;       ;       ; 5.959 ;
+; port_in_14[7]   ; data_out[7] ; 5.610 ; 5.610 ; 5.610 ; 5.610 ;
+; port_in_15[0]   ; data_out[0] ; 6.165 ;       ;       ; 6.165 ;
+; port_in_15[1]   ; data_out[1] ; 5.756 ;       ;       ; 5.756 ;
+; port_in_15[2]   ; data_out[2] ; 6.435 ;       ;       ; 6.435 ;
+; port_in_15[3]   ; data_out[3] ; 5.603 ;       ;       ; 5.603 ;
+; port_in_15[4]   ; data_out[4] ; 4.526 ;       ;       ; 4.526 ;
+; port_in_15[5]   ; data_out[5] ; 6.328 ;       ;       ; 6.328 ;
+; port_in_15[6]   ; data_out[6] ; 6.081 ;       ;       ; 6.081 ;
+; port_in_15[7]   ; data_out[7] ; 5.752 ;       ;       ; 5.752 ;
+; rom_data_out[0] ; data_out[0] ; 4.900 ;       ;       ; 4.900 ;
+; rom_data_out[1] ; data_out[1] ; 5.211 ;       ;       ; 5.211 ;
+; rom_data_out[2] ; data_out[2] ; 5.102 ;       ;       ; 5.102 ;
+; rom_data_out[3] ; data_out[3] ; 6.410 ;       ;       ; 6.410 ;
+; rom_data_out[4] ; data_out[4] ; 5.247 ;       ;       ; 5.247 ;
+; rom_data_out[5] ; data_out[5] ; 3.531 ;       ;       ; 3.531 ;
+; rom_data_out[6] ; data_out[6] ; 5.171 ;       ;       ; 5.171 ;
+; rom_data_out[7] ; data_out[7] ; 5.147 ;       ;       ; 5.147 ;
+; rw_data_out[0]  ; data_out[0] ; 5.134 ;       ;       ; 5.134 ;
+; rw_data_out[1]  ; data_out[1] ; 5.092 ;       ;       ; 5.092 ;
+; rw_data_out[2]  ; data_out[2] ; 5.113 ;       ;       ; 5.113 ;
+; rw_data_out[3]  ; data_out[3] ; 6.280 ;       ;       ; 6.280 ;
+; rw_data_out[4]  ; data_out[4] ; 5.206 ;       ;       ; 5.206 ;
+; rw_data_out[5]  ; data_out[5] ; 3.418 ;       ;       ; 3.418 ;
+; rw_data_out[6]  ; data_out[6] ; 5.284 ;       ;       ; 5.284 ;
+; rw_data_out[7]  ; data_out[7] ; 5.330 ;       ;       ; 5.330 ;
++-----------------+-------------+-------+-------+-------+-------+
+
+
++---------------------------------------------------------------+
+; Minimum Propagation Delay                                     ;
++-----------------+-------------+-------+-------+-------+-------+
+; Input Port      ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++-----------------+-------------+-------+-------+-------+-------+
+; address[0]      ; data_out[0] ; 6.461 ; 6.461 ; 6.461 ; 6.461 ;
+; address[0]      ; data_out[1] ; 6.148 ; 6.148 ; 6.148 ; 6.148 ;
+; address[0]      ; data_out[2] ; 7.230 ; 7.230 ; 7.230 ; 7.230 ;
+; address[0]      ; data_out[3] ; 5.871 ; 5.871 ; 5.871 ; 5.871 ;
+; address[0]      ; data_out[4] ; 7.450 ; 7.450 ; 7.450 ; 7.450 ;
+; address[0]      ; data_out[5] ; 7.099 ; 7.099 ; 7.099 ; 7.099 ;
+; address[0]      ; data_out[6] ; 7.271 ; 7.271 ; 7.271 ; 7.271 ;
+; address[0]      ; data_out[7] ; 6.285 ; 6.285 ; 6.285 ; 6.285 ;
+; address[1]      ; data_out[0] ; 6.265 ; 6.265 ; 6.265 ; 6.265 ;
+; address[1]      ; data_out[1] ; 5.821 ; 5.821 ; 5.821 ; 5.821 ;
+; address[1]      ; data_out[2] ; 6.894 ; 6.894 ; 6.894 ; 6.894 ;
+; address[1]      ; data_out[3] ; 6.138 ; 6.138 ; 6.138 ; 6.138 ;
+; address[1]      ; data_out[4] ; 7.271 ; 7.271 ; 7.271 ; 7.271 ;
+; address[1]      ; data_out[5] ; 5.892 ; 5.892 ; 5.892 ; 5.892 ;
+; address[1]      ; data_out[6] ; 6.654 ; 6.654 ; 6.654 ; 6.654 ;
+; address[1]      ; data_out[7] ; 5.963 ; 5.963 ; 5.963 ; 5.963 ;
+; address[2]      ; data_out[0] ; 6.335 ; 6.335 ; 6.335 ; 6.335 ;
+; address[2]      ; data_out[1] ; 6.357 ; 6.357 ; 6.357 ; 6.357 ;
+; address[2]      ; data_out[2] ; 6.613 ; 6.613 ; 6.613 ; 6.613 ;
+; address[2]      ; data_out[3] ; 5.919 ; 5.919 ; 5.919 ; 5.919 ;
+; address[2]      ; data_out[4] ; 7.586 ; 7.586 ; 7.586 ; 7.586 ;
+; address[2]      ; data_out[5] ; 6.521 ; 6.521 ; 6.521 ; 6.521 ;
+; address[2]      ; data_out[6] ; 6.193 ; 6.193 ; 6.193 ; 6.193 ;
+; address[2]      ; data_out[7] ; 5.798 ; 5.798 ; 5.798 ; 5.798 ;
+; address[3]      ; data_out[0] ; 3.441 ; 3.441 ; 3.441 ; 3.441 ;
+; address[3]      ; data_out[1] ; 4.163 ; 4.163 ; 4.163 ; 4.163 ;
+; address[3]      ; data_out[2] ; 4.750 ; 4.750 ; 4.750 ; 4.750 ;
+; address[3]      ; data_out[3] ; 3.902 ; 3.902 ; 3.902 ; 3.902 ;
+; address[3]      ; data_out[4] ; 4.931 ; 4.931 ; 4.931 ; 4.931 ;
+; address[3]      ; data_out[5] ; 4.007 ; 4.007 ; 4.007 ; 4.007 ;
+; address[3]      ; data_out[6] ; 4.236 ; 4.236 ; 4.236 ; 4.236 ;
+; address[3]      ; data_out[7] ; 3.807 ; 3.807 ; 3.807 ; 3.807 ;
+; address[4]      ; data_out[0] ; 5.096 ;       ;       ; 5.096 ;
+; address[4]      ; data_out[1] ; 5.274 ;       ;       ; 5.274 ;
+; address[4]      ; data_out[2] ; 5.189 ;       ;       ; 5.189 ;
+; address[4]      ; data_out[3] ; 6.632 ;       ;       ; 6.632 ;
+; address[4]      ; data_out[4] ; 5.200 ;       ;       ; 5.200 ;
+; address[4]      ; data_out[5] ; 5.232 ;       ;       ; 5.232 ;
+; address[4]      ; data_out[6] ; 5.229 ;       ;       ; 5.229 ;
+; address[4]      ; data_out[7] ; 6.185 ;       ;       ; 6.185 ;
+; address[5]      ; data_out[0] ; 5.102 ; 5.429 ; 5.429 ; 5.102 ;
+; address[5]      ; data_out[1] ; 5.280 ; 5.503 ; 5.503 ; 5.280 ;
+; address[5]      ; data_out[2] ; 5.195 ; 5.537 ; 5.537 ; 5.195 ;
+; address[5]      ; data_out[3] ; 6.638 ; 6.645 ; 6.645 ; 6.638 ;
+; address[5]      ; data_out[4] ; 5.206 ; 5.547 ; 5.547 ; 5.206 ;
+; address[5]      ; data_out[5] ; 5.238 ; 5.572 ; 5.572 ; 5.238 ;
+; address[5]      ; data_out[6] ; 5.235 ; 5.580 ; 5.580 ; 5.235 ;
+; address[5]      ; data_out[7] ; 6.191 ; 6.148 ; 6.148 ; 6.191 ;
+; address[6]      ; data_out[0] ; 5.004 ; 5.336 ; 5.336 ; 5.004 ;
+; address[6]      ; data_out[1] ; 5.182 ; 5.410 ; 5.410 ; 5.182 ;
+; address[6]      ; data_out[2] ; 5.097 ; 5.444 ; 5.444 ; 5.097 ;
+; address[6]      ; data_out[3] ; 6.540 ; 6.552 ; 6.552 ; 6.540 ;
+; address[6]      ; data_out[4] ; 5.108 ; 5.454 ; 5.454 ; 5.108 ;
+; address[6]      ; data_out[5] ; 5.140 ; 5.479 ; 5.479 ; 5.140 ;
+; address[6]      ; data_out[6] ; 5.137 ; 5.487 ; 5.487 ; 5.137 ;
+; address[6]      ; data_out[7] ; 6.093 ; 6.055 ; 6.055 ; 6.093 ;
+; address[7]      ; data_out[0] ; 5.438 ; 5.452 ; 5.452 ; 5.438 ;
+; address[7]      ; data_out[1] ; 5.616 ; 5.515 ; 5.515 ; 5.616 ;
+; address[7]      ; data_out[2] ; 5.531 ; 5.557 ; 5.557 ; 5.531 ;
+; address[7]      ; data_out[3] ; 6.974 ; 6.800 ; 6.800 ; 6.974 ;
+; address[7]      ; data_out[4] ; 5.542 ; 5.567 ; 5.567 ; 5.542 ;
+; address[7]      ; data_out[5] ; 5.574 ; 5.590 ; 5.590 ; 5.574 ;
+; address[7]      ; data_out[6] ; 5.571 ; 5.594 ; 5.594 ; 5.571 ;
+; address[7]      ; data_out[7] ; 6.495 ; 5.586 ; 5.586 ; 6.495 ;
+; port_in_00[0]   ; data_out[0] ; 6.686 ; 6.686 ; 6.686 ; 6.686 ;
+; port_in_00[1]   ; data_out[1] ; 6.326 ; 6.326 ; 6.326 ; 6.326 ;
+; port_in_00[2]   ; data_out[2] ; 7.046 ; 7.046 ; 7.046 ; 7.046 ;
+; port_in_00[3]   ; data_out[3] ; 6.428 ; 6.428 ; 6.428 ; 6.428 ;
+; port_in_00[4]   ; data_out[4] ; 7.646 ; 7.646 ; 7.646 ; 7.646 ;
+; port_in_00[5]   ; data_out[5] ; 6.724 ; 6.724 ; 6.724 ; 6.724 ;
+; port_in_00[6]   ; data_out[6] ; 6.763 ; 6.763 ; 6.763 ; 6.763 ;
+; port_in_00[7]   ; data_out[7] ; 5.954 ; 5.954 ; 5.954 ; 5.954 ;
+; port_in_01[0]   ; data_out[0] ; 6.585 ; 6.585 ; 6.585 ; 6.585 ;
+; port_in_01[1]   ; data_out[1] ; 6.344 ; 6.344 ; 6.344 ; 6.344 ;
+; port_in_01[2]   ; data_out[2] ; 6.771 ; 6.771 ; 6.771 ; 6.771 ;
+; port_in_01[3]   ; data_out[3] ; 6.097 ; 6.097 ; 6.097 ; 6.097 ;
+; port_in_01[4]   ; data_out[4] ; 7.957 ; 7.957 ; 7.957 ; 7.957 ;
+; port_in_01[5]   ; data_out[5] ; 6.711 ; 6.711 ; 6.711 ; 6.711 ;
+; port_in_01[6]   ; data_out[6] ; 6.336 ; 6.336 ; 6.336 ; 6.336 ;
+; port_in_01[7]   ; data_out[7] ; 5.712 ; 5.712 ; 5.712 ; 5.712 ;
+; port_in_02[0]   ; data_out[0] ; 6.307 ; 6.307 ; 6.307 ; 6.307 ;
+; port_in_02[1]   ; data_out[1] ; 5.928 ; 5.928 ; 5.928 ; 5.928 ;
+; port_in_02[2]   ; data_out[2] ; 6.938 ; 6.938 ; 6.938 ; 6.938 ;
+; port_in_02[3]   ; data_out[3] ; 6.120 ; 6.120 ; 6.120 ; 6.120 ;
+; port_in_02[4]   ; data_out[4] ; 7.559 ; 7.559 ; 7.559 ; 7.559 ;
+; port_in_02[5]   ; data_out[5] ; 6.444 ; 6.444 ; 6.444 ; 6.444 ;
+; port_in_02[6]   ; data_out[6] ; 6.764 ; 6.764 ; 6.764 ; 6.764 ;
+; port_in_02[7]   ; data_out[7] ; 6.119 ; 6.119 ; 6.119 ; 6.119 ;
+; port_in_03[0]   ; data_out[0] ; 6.398 ; 6.398 ; 6.398 ; 6.398 ;
+; port_in_03[1]   ; data_out[1] ; 6.016 ; 6.016 ; 6.016 ; 6.016 ;
+; port_in_03[2]   ; data_out[2] ; 6.699 ; 6.699 ; 6.699 ; 6.699 ;
+; port_in_03[3]   ; data_out[3] ; 6.091 ; 6.091 ; 6.091 ; 6.091 ;
+; port_in_03[4]   ; data_out[4] ; 7.598 ; 7.598 ; 7.598 ; 7.598 ;
+; port_in_03[5]   ; data_out[5] ; 6.501 ; 6.501 ; 6.501 ; 6.501 ;
+; port_in_03[6]   ; data_out[6] ; 6.454 ; 6.454 ; 6.454 ; 6.454 ;
+; port_in_03[7]   ; data_out[7] ; 5.804 ; 5.804 ; 5.804 ; 5.804 ;
+; port_in_04[0]   ; data_out[0] ; 4.062 ; 4.062 ; 4.062 ; 4.062 ;
+; port_in_04[1]   ; data_out[1] ; 6.036 ; 6.036 ; 6.036 ; 6.036 ;
+; port_in_04[2]   ; data_out[2] ; 6.419 ; 6.419 ; 6.419 ; 6.419 ;
+; port_in_04[3]   ; data_out[3] ; 6.295 ; 6.295 ; 6.295 ; 6.295 ;
+; port_in_04[4]   ; data_out[4] ; 7.883 ; 7.883 ; 7.883 ; 7.883 ;
+; port_in_04[5]   ; data_out[5] ; 6.474 ; 6.474 ; 6.474 ; 6.474 ;
+; port_in_04[6]   ; data_out[6] ; 6.363 ; 6.363 ; 6.363 ; 6.363 ;
+; port_in_04[7]   ; data_out[7] ; 5.875 ; 5.875 ; 5.875 ; 5.875 ;
+; port_in_05[0]   ; data_out[0] ; 3.920 ; 3.920 ; 3.920 ; 3.920 ;
+; port_in_05[1]   ; data_out[1] ; 6.252 ; 6.252 ; 6.252 ; 6.252 ;
+; port_in_05[2]   ; data_out[2] ; 6.461 ; 6.461 ; 6.461 ; 6.461 ;
+; port_in_05[3]   ; data_out[3] ; 5.509 ;       ;       ; 5.509 ;
+; port_in_05[4]   ; data_out[4] ; 7.465 ; 7.465 ; 7.465 ; 7.465 ;
+; port_in_05[5]   ; data_out[5] ; 6.684 ; 6.684 ; 6.684 ; 6.684 ;
+; port_in_05[6]   ; data_out[6] ; 6.204 ; 6.204 ; 6.204 ; 6.204 ;
+; port_in_05[7]   ; data_out[7] ; 5.658 ;       ;       ; 5.658 ;
+; port_in_06[0]   ; data_out[0] ; 4.169 ; 4.169 ; 4.169 ; 4.169 ;
+; port_in_06[1]   ; data_out[1] ; 5.936 ;       ;       ; 5.936 ;
+; port_in_06[2]   ; data_out[2] ; 6.272 ;       ;       ; 6.272 ;
+; port_in_06[3]   ; data_out[3] ; 6.248 ; 6.248 ; 6.248 ; 6.248 ;
+; port_in_06[4]   ; data_out[4] ; 7.779 ; 7.779 ; 7.779 ; 7.779 ;
+; port_in_06[5]   ; data_out[5] ; 6.229 ;       ;       ; 6.229 ;
+; port_in_06[6]   ; data_out[6] ; 5.986 ;       ;       ; 5.986 ;
+; port_in_06[7]   ; data_out[7] ; 5.809 ; 5.809 ; 5.809 ; 5.809 ;
+; port_in_07[0]   ; data_out[0] ; 6.607 ; 6.607 ; 6.607 ; 6.607 ;
+; port_in_07[1]   ; data_out[1] ; 6.088 ; 6.088 ; 6.088 ; 6.088 ;
+; port_in_07[2]   ; data_out[2] ; 6.244 ;       ;       ; 6.244 ;
+; port_in_07[3]   ; data_out[3] ; 5.474 ;       ;       ; 5.474 ;
+; port_in_07[4]   ; data_out[4] ; 7.431 ; 7.431 ; 7.431 ; 7.431 ;
+; port_in_07[5]   ; data_out[5] ; 6.577 ; 6.577 ; 6.577 ; 6.577 ;
+; port_in_07[6]   ; data_out[6] ; 6.298 ;       ;       ; 6.298 ;
+; port_in_07[7]   ; data_out[7] ; 5.387 ;       ;       ; 5.387 ;
+; port_in_08[0]   ; data_out[0] ; 6.724 ; 6.724 ; 6.724 ; 6.724 ;
+; port_in_08[1]   ; data_out[1] ; 6.399 ; 6.399 ; 6.399 ; 6.399 ;
+; port_in_08[2]   ; data_out[2] ; 6.866 ; 6.866 ; 6.866 ; 6.866 ;
+; port_in_08[3]   ; data_out[3] ; 5.988 ; 5.988 ; 5.988 ; 5.988 ;
+; port_in_08[4]   ; data_out[4] ; 6.900 ; 6.900 ; 6.900 ; 6.900 ;
+; port_in_08[5]   ; data_out[5] ; 6.604 ; 6.604 ; 6.604 ; 6.604 ;
+; port_in_08[6]   ; data_out[6] ; 6.728 ; 6.728 ; 6.728 ; 6.728 ;
+; port_in_08[7]   ; data_out[7] ; 5.730 ; 5.730 ; 5.730 ; 5.730 ;
+; port_in_09[0]   ; data_out[0] ; 6.710 ; 6.710 ; 6.710 ; 6.710 ;
+; port_in_09[1]   ; data_out[1] ; 5.964 ; 5.964 ; 5.964 ; 5.964 ;
+; port_in_09[2]   ; data_out[2] ; 6.839 ; 6.839 ; 6.839 ; 6.839 ;
+; port_in_09[3]   ; data_out[3] ; 6.125 ; 6.125 ; 6.125 ; 6.125 ;
+; port_in_09[4]   ; data_out[4] ; 6.827 ; 6.827 ; 6.827 ; 6.827 ;
+; port_in_09[5]   ; data_out[5] ; 6.502 ; 6.502 ; 6.502 ; 6.502 ;
+; port_in_09[6]   ; data_out[6] ; 6.419 ; 6.419 ; 6.419 ; 6.419 ;
+; port_in_09[7]   ; data_out[7] ; 6.030 ; 6.030 ; 6.030 ; 6.030 ;
+; port_in_10[0]   ; data_out[0] ; 6.364 ;       ;       ; 6.364 ;
+; port_in_10[1]   ; data_out[1] ; 5.997 ; 5.997 ; 5.997 ; 5.997 ;
+; port_in_10[2]   ; data_out[2] ; 6.803 ; 6.803 ; 6.803 ; 6.803 ;
+; port_in_10[3]   ; data_out[3] ; 5.936 ; 5.936 ; 5.936 ; 5.936 ;
+; port_in_10[4]   ; data_out[4] ; 6.646 ;       ;       ; 6.646 ;
+; port_in_10[5]   ; data_out[5] ; 6.528 ; 6.528 ; 6.528 ; 6.528 ;
+; port_in_10[6]   ; data_out[6] ; 6.514 ; 6.514 ; 6.514 ; 6.514 ;
+; port_in_10[7]   ; data_out[7] ; 5.631 ; 5.631 ; 5.631 ; 5.631 ;
+; port_in_11[0]   ; data_out[0] ; 6.423 ;       ;       ; 6.423 ;
+; port_in_11[1]   ; data_out[1] ; 5.922 ;       ;       ; 5.922 ;
+; port_in_11[2]   ; data_out[2] ; 6.546 ; 6.546 ; 6.546 ; 6.546 ;
+; port_in_11[3]   ; data_out[3] ; 5.961 ; 5.961 ; 5.961 ; 5.961 ;
+; port_in_11[4]   ; data_out[4] ; 6.762 ;       ;       ; 6.762 ;
+; port_in_11[5]   ; data_out[5] ; 6.267 ;       ;       ; 6.267 ;
+; port_in_11[6]   ; data_out[6] ; 6.089 ; 6.089 ; 6.089 ; 6.089 ;
+; port_in_11[7]   ; data_out[7] ; 5.870 ; 5.870 ; 5.870 ; 5.870 ;
+; port_in_12[0]   ; data_out[0] ; 6.449 ; 6.449 ; 6.449 ; 6.449 ;
+; port_in_12[1]   ; data_out[1] ; 6.124 ; 6.124 ; 6.124 ; 6.124 ;
+; port_in_12[2]   ; data_out[2] ; 6.762 ; 6.762 ; 6.762 ; 6.762 ;
+; port_in_12[3]   ; data_out[3] ; 6.297 ; 6.297 ; 6.297 ; 6.297 ;
+; port_in_12[4]   ; data_out[4] ; 4.811 ; 4.811 ; 4.811 ; 4.811 ;
+; port_in_12[5]   ; data_out[5] ; 6.435 ; 6.435 ; 6.435 ; 6.435 ;
+; port_in_12[6]   ; data_out[6] ; 6.139 ; 6.139 ; 6.139 ; 6.139 ;
+; port_in_12[7]   ; data_out[7] ; 5.613 ; 5.613 ; 5.613 ; 5.613 ;
+; port_in_13[0]   ; data_out[0] ; 6.287 ;       ;       ; 6.287 ;
+; port_in_13[1]   ; data_out[1] ; 6.106 ; 6.106 ; 6.106 ; 6.106 ;
+; port_in_13[2]   ; data_out[2] ; 6.554 ; 6.554 ; 6.554 ; 6.554 ;
+; port_in_13[3]   ; data_out[3] ; 5.788 ;       ;       ; 5.788 ;
+; port_in_13[4]   ; data_out[4] ; 7.023 ;       ;       ; 7.023 ;
+; port_in_13[5]   ; data_out[5] ; 6.525 ; 6.525 ; 6.525 ; 6.525 ;
+; port_in_13[6]   ; data_out[6] ; 6.217 ; 6.217 ; 6.217 ; 6.217 ;
+; port_in_13[7]   ; data_out[7] ; 5.663 ;       ;       ; 5.663 ;
+; port_in_14[0]   ; data_out[0] ; 6.319 ; 6.319 ; 6.319 ; 6.319 ;
+; port_in_14[1]   ; data_out[1] ; 5.960 ;       ;       ; 5.960 ;
+; port_in_14[2]   ; data_out[2] ; 6.465 ;       ;       ; 6.465 ;
+; port_in_14[3]   ; data_out[3] ; 5.895 ; 5.895 ; 5.895 ; 5.895 ;
+; port_in_14[4]   ; data_out[4] ; 7.079 ; 7.079 ; 7.079 ; 7.079 ;
+; port_in_14[5]   ; data_out[5] ; 6.265 ;       ;       ; 6.265 ;
+; port_in_14[6]   ; data_out[6] ; 5.959 ;       ;       ; 5.959 ;
+; port_in_14[7]   ; data_out[7] ; 5.610 ; 5.610 ; 5.610 ; 5.610 ;
+; port_in_15[0]   ; data_out[0] ; 6.165 ;       ;       ; 6.165 ;
+; port_in_15[1]   ; data_out[1] ; 5.756 ;       ;       ; 5.756 ;
+; port_in_15[2]   ; data_out[2] ; 6.435 ;       ;       ; 6.435 ;
+; port_in_15[3]   ; data_out[3] ; 5.603 ;       ;       ; 5.603 ;
+; port_in_15[4]   ; data_out[4] ; 4.526 ;       ;       ; 4.526 ;
+; port_in_15[5]   ; data_out[5] ; 6.328 ;       ;       ; 6.328 ;
+; port_in_15[6]   ; data_out[6] ; 6.081 ;       ;       ; 6.081 ;
+; port_in_15[7]   ; data_out[7] ; 5.752 ;       ;       ; 5.752 ;
+; rom_data_out[0] ; data_out[0] ; 4.900 ;       ;       ; 4.900 ;
+; rom_data_out[1] ; data_out[1] ; 5.211 ;       ;       ; 5.211 ;
+; rom_data_out[2] ; data_out[2] ; 5.102 ;       ;       ; 5.102 ;
+; rom_data_out[3] ; data_out[3] ; 6.410 ;       ;       ; 6.410 ;
+; rom_data_out[4] ; data_out[4] ; 5.247 ;       ;       ; 5.247 ;
+; rom_data_out[5] ; data_out[5] ; 3.531 ;       ;       ; 3.531 ;
+; rom_data_out[6] ; data_out[6] ; 5.171 ;       ;       ; 5.171 ;
+; rom_data_out[7] ; data_out[7] ; 5.147 ;       ;       ; 5.147 ;
+; rw_data_out[0]  ; data_out[0] ; 5.134 ;       ;       ; 5.134 ;
+; rw_data_out[1]  ; data_out[1] ; 5.092 ;       ;       ; 5.092 ;
+; rw_data_out[2]  ; data_out[2] ; 5.113 ;       ;       ; 5.113 ;
+; rw_data_out[3]  ; data_out[3] ; 6.280 ;       ;       ; 6.280 ;
+; rw_data_out[4]  ; data_out[4] ; 5.206 ;       ;       ; 5.206 ;
+; rw_data_out[5]  ; data_out[5] ; 3.418 ;       ;       ; 3.418 ;
+; rw_data_out[6]  ; data_out[6] ; 5.284 ;       ;       ; 5.284 ;
+; rw_data_out[7]  ; data_out[7] ; 5.330 ;       ;       ; 5.330 ;
++-----------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++-------------------------------------------------------------------+
+; Progagation Delay                                                 ;
++-----------------+-------------+--------+--------+--------+--------+
+; Input Port      ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++-----------------+-------------+--------+--------+--------+--------+
+; address[0]      ; data_out[0] ; 17.145 ; 17.145 ; 17.145 ; 17.145 ;
+; address[0]      ; data_out[1] ; 13.731 ; 13.731 ; 13.731 ; 13.731 ;
+; address[0]      ; data_out[2] ; 17.911 ; 17.911 ; 17.911 ; 17.911 ;
+; address[0]      ; data_out[3] ; 13.761 ; 13.761 ; 13.761 ; 13.761 ;
+; address[0]      ; data_out[4] ; 20.998 ; 20.998 ; 20.998 ; 20.998 ;
+; address[0]      ; data_out[5] ; 16.115 ; 16.115 ; 16.115 ; 16.115 ;
+; address[0]      ; data_out[6] ; 17.989 ; 17.989 ; 17.989 ; 17.989 ;
+; address[0]      ; data_out[7] ; 14.518 ; 14.518 ; 14.518 ; 14.518 ;
+; address[1]      ; data_out[0] ; 16.376 ; 16.376 ; 16.376 ; 16.376 ;
+; address[1]      ; data_out[1] ; 13.404 ; 13.404 ; 13.404 ; 13.404 ;
+; address[1]      ; data_out[2] ; 17.816 ; 17.816 ; 17.816 ; 17.816 ;
+; address[1]      ; data_out[3] ; 13.469 ; 13.469 ; 13.469 ; 13.469 ;
+; address[1]      ; data_out[4] ; 19.683 ; 19.683 ; 19.683 ; 19.683 ;
+; address[1]      ; data_out[5] ; 13.937 ; 13.937 ; 13.937 ; 13.937 ;
+; address[1]      ; data_out[6] ; 16.876 ; 16.876 ; 16.876 ; 16.876 ;
+; address[1]      ; data_out[7] ; 13.092 ; 13.092 ; 13.092 ; 13.092 ;
+; address[2]      ; data_out[0] ; 14.328 ; 14.328 ; 14.328 ; 14.328 ;
+; address[2]      ; data_out[1] ; 16.168 ; 16.168 ; 16.168 ; 16.168 ;
+; address[2]      ; data_out[2] ; 15.862 ; 15.862 ; 15.862 ; 15.862 ;
+; address[2]      ; data_out[3] ; 14.914 ; 14.914 ; 14.914 ; 14.914 ;
+; address[2]      ; data_out[4] ; 17.823 ; 17.823 ; 17.823 ; 17.823 ;
+; address[2]      ; data_out[5] ; 16.365 ; 16.365 ; 16.365 ; 16.365 ;
+; address[2]      ; data_out[6] ; 14.425 ; 14.425 ; 14.425 ; 14.425 ;
+; address[2]      ; data_out[7] ; 14.092 ; 14.092 ; 14.092 ; 14.092 ;
+; address[3]      ; data_out[0] ; 9.290  ; 9.290  ; 9.290  ; 9.290  ;
+; address[3]      ; data_out[1] ; 11.485 ; 11.485 ; 11.485 ; 11.485 ;
+; address[3]      ; data_out[2] ; 11.899 ; 11.899 ; 11.899 ; 11.899 ;
+; address[3]      ; data_out[3] ; 10.582 ; 10.582 ; 10.582 ; 10.582 ;
+; address[3]      ; data_out[4] ; 13.988 ; 13.988 ; 13.988 ; 13.988 ;
+; address[3]      ; data_out[5] ; 11.463 ; 11.463 ; 11.463 ; 11.463 ;
+; address[3]      ; data_out[6] ; 10.473 ; 10.473 ; 10.473 ; 10.473 ;
+; address[3]      ; data_out[7] ; 10.260 ; 10.260 ; 10.260 ; 10.260 ;
+; address[4]      ; data_out[0] ; 10.948 ;        ;        ; 10.948 ;
+; address[4]      ; data_out[1] ; 11.502 ;        ;        ; 11.502 ;
+; address[4]      ; data_out[2] ; 11.276 ;        ;        ; 11.276 ;
+; address[4]      ; data_out[3] ; 14.736 ;        ;        ; 14.736 ;
+; address[4]      ; data_out[4] ; 11.287 ;        ;        ; 11.287 ;
+; address[4]      ; data_out[5] ; 11.321 ;        ;        ; 11.321 ;
+; address[4]      ; data_out[6] ; 11.320 ;        ;        ; 11.320 ;
+; address[4]      ; data_out[7] ; 13.864 ;        ;        ; 13.864 ;
+; address[5]      ; data_out[0] ; 10.944 ; 12.056 ; 12.056 ; 10.944 ;
+; address[5]      ; data_out[1] ; 11.498 ; 12.190 ; 12.190 ; 11.498 ;
+; address[5]      ; data_out[2] ; 11.272 ; 12.404 ; 12.404 ; 11.272 ;
+; address[5]      ; data_out[3] ; 14.732 ; 15.071 ; 15.071 ; 14.732 ;
+; address[5]      ; data_out[4] ; 11.283 ; 12.405 ; 12.405 ; 11.283 ;
+; address[5]      ; data_out[5] ; 11.317 ; 12.439 ; 12.439 ; 11.317 ;
+; address[5]      ; data_out[6] ; 11.316 ; 12.480 ; 12.480 ; 11.316 ;
+; address[5]      ; data_out[7] ; 13.860 ; 13.793 ; 13.793 ; 13.860 ;
+; address[6]      ; data_out[0] ; 10.639 ; 11.719 ; 11.719 ; 10.639 ;
+; address[6]      ; data_out[1] ; 11.193 ; 11.853 ; 11.853 ; 11.193 ;
+; address[6]      ; data_out[2] ; 10.967 ; 12.067 ; 12.067 ; 10.967 ;
+; address[6]      ; data_out[3] ; 14.427 ; 14.734 ; 14.734 ; 14.427 ;
+; address[6]      ; data_out[4] ; 10.978 ; 12.068 ; 12.068 ; 10.978 ;
+; address[6]      ; data_out[5] ; 11.012 ; 12.102 ; 12.102 ; 11.012 ;
+; address[6]      ; data_out[6] ; 11.011 ; 12.143 ; 12.143 ; 11.011 ;
+; address[6]      ; data_out[7] ; 13.555 ; 13.456 ; 13.456 ; 13.555 ;
+; address[7]      ; data_out[0] ; 12.863 ; 11.926 ; 11.926 ; 12.863 ;
+; address[7]      ; data_out[1] ; 12.997 ; 12.050 ; 12.050 ; 12.997 ;
+; address[7]      ; data_out[2] ; 13.211 ; 12.273 ; 12.273 ; 13.211 ;
+; address[7]      ; data_out[3] ; 15.878 ; 15.351 ; 15.351 ; 15.878 ;
+; address[7]      ; data_out[4] ; 13.212 ; 12.277 ; 12.277 ; 13.212 ;
+; address[7]      ; data_out[5] ; 13.246 ; 12.308 ; 12.308 ; 13.246 ;
+; address[7]      ; data_out[6] ; 13.287 ; 12.337 ; 12.337 ; 13.287 ;
+; address[7]      ; data_out[7] ; 14.688 ; 12.127 ; 12.127 ; 14.688 ;
+; port_in_00[0]   ; data_out[0] ; 15.754 ; 15.754 ; 15.754 ; 15.754 ;
+; port_in_00[1]   ; data_out[1] ; 14.599 ; 14.599 ; 14.599 ; 14.599 ;
+; port_in_00[2]   ; data_out[2] ; 16.570 ; 16.570 ; 16.570 ; 16.570 ;
+; port_in_00[3]   ; data_out[3] ; 14.782 ; 14.782 ; 14.782 ; 14.782 ;
+; port_in_00[4]   ; data_out[4] ; 18.220 ; 18.220 ; 18.220 ; 18.220 ;
+; port_in_00[5]   ; data_out[5] ; 15.731 ; 15.731 ; 15.731 ; 15.731 ;
+; port_in_00[6]   ; data_out[6] ; 15.805 ; 15.805 ; 15.805 ; 15.805 ;
+; port_in_00[7]   ; data_out[7] ; 13.458 ; 13.458 ; 13.458 ; 13.458 ;
+; port_in_01[0]   ; data_out[0] ; 15.496 ; 15.496 ; 15.496 ; 15.496 ;
+; port_in_01[1]   ; data_out[1] ; 14.609 ; 14.609 ; 14.609 ; 14.609 ;
+; port_in_01[2]   ; data_out[2] ; 15.644 ; 15.644 ; 15.644 ; 15.644 ;
+; port_in_01[3]   ; data_out[3] ; 13.783 ; 13.783 ; 13.783 ; 13.783 ;
+; port_in_01[4]   ; data_out[4] ; 19.211 ; 19.211 ; 19.211 ; 19.211 ;
+; port_in_01[5]   ; data_out[5] ; 15.647 ; 15.647 ; 15.647 ; 15.647 ;
+; port_in_01[6]   ; data_out[6] ; 14.563 ; 14.563 ; 14.563 ; 14.563 ;
+; port_in_01[7]   ; data_out[7] ; 12.766 ; 12.766 ; 12.766 ; 12.766 ;
+; port_in_02[0]   ; data_out[0] ; 14.561 ; 14.561 ; 14.561 ; 14.561 ;
+; port_in_02[1]   ; data_out[1] ; 13.292 ; 13.292 ; 13.292 ; 13.292 ;
+; port_in_02[2]   ; data_out[2] ; 16.225 ; 16.225 ; 16.225 ; 16.225 ;
+; port_in_02[3]   ; data_out[3] ; 13.857 ; 13.857 ; 13.857 ; 13.857 ;
+; port_in_02[4]   ; data_out[4] ; 18.041 ; 18.041 ; 18.041 ; 18.041 ;
+; port_in_02[5]   ; data_out[5] ; 14.837 ; 14.837 ; 14.837 ; 14.837 ;
+; port_in_02[6]   ; data_out[6] ; 15.747 ; 15.747 ; 15.747 ; 15.747 ;
+; port_in_02[7]   ; data_out[7] ; 14.000 ; 14.000 ; 14.000 ; 14.000 ;
+; port_in_03[0]   ; data_out[0] ; 14.767 ; 14.767 ; 14.767 ; 14.767 ;
+; port_in_03[1]   ; data_out[1] ; 13.538 ; 13.538 ; 13.538 ; 13.538 ;
+; port_in_03[2]   ; data_out[2] ; 15.475 ; 15.475 ; 15.475 ; 15.475 ;
+; port_in_03[3]   ; data_out[3] ; 13.567 ; 13.567 ; 13.567 ; 13.567 ;
+; port_in_03[4]   ; data_out[4] ; 18.195 ; 18.195 ; 18.195 ; 18.195 ;
+; port_in_03[5]   ; data_out[5] ; 15.002 ; 15.002 ; 15.002 ; 15.002 ;
+; port_in_03[6]   ; data_out[6] ; 14.761 ; 14.761 ; 14.761 ; 14.761 ;
+; port_in_03[7]   ; data_out[7] ; 13.007 ; 13.007 ; 13.007 ; 13.007 ;
+; port_in_04[0]   ; data_out[0] ; 10.504 ; 10.504 ; 10.504 ; 10.504 ;
+; port_in_04[1]   ; data_out[1] ; 13.627 ; 13.627 ; 13.627 ; 13.627 ;
+; port_in_04[2]   ; data_out[2] ; 14.615 ; 14.615 ; 14.615 ; 14.615 ;
+; port_in_04[3]   ; data_out[3] ; 14.422 ; 14.422 ; 14.422 ; 14.422 ;
+; port_in_04[4]   ; data_out[4] ; 18.756 ; 18.756 ; 18.756 ; 18.756 ;
+; port_in_04[5]   ; data_out[5] ; 14.785 ; 14.785 ; 14.785 ; 14.785 ;
+; port_in_04[6]   ; data_out[6] ; 14.598 ; 14.598 ; 14.598 ; 14.598 ;
+; port_in_04[7]   ; data_out[7] ; 13.257 ; 13.257 ; 13.257 ; 13.257 ;
+; port_in_05[0]   ; data_out[0] ; 10.005 ; 10.005 ; 10.005 ; 10.005 ;
+; port_in_05[1]   ; data_out[1] ; 14.283 ; 14.283 ; 14.283 ; 14.283 ;
+; port_in_05[2]   ; data_out[2] ; 14.762 ; 14.762 ; 14.762 ; 14.762 ;
+; port_in_05[3]   ; data_out[3] ; 11.955 ;        ;        ; 11.955 ;
+; port_in_05[4]   ; data_out[4] ; 17.665 ; 17.665 ; 17.665 ; 17.665 ;
+; port_in_05[5]   ; data_out[5] ; 15.501 ; 15.501 ; 15.501 ; 15.501 ;
+; port_in_05[6]   ; data_out[6] ; 14.129 ; 14.129 ; 14.129 ; 14.129 ;
+; port_in_05[7]   ; data_out[7] ; 12.560 ;        ;        ; 12.560 ;
+; port_in_06[0]   ; data_out[0] ; 10.766 ; 10.766 ; 10.766 ; 10.766 ;
+; port_in_06[1]   ; data_out[1] ; 13.236 ;        ;        ; 13.236 ;
+; port_in_06[2]   ; data_out[2] ; 14.148 ;        ;        ; 14.148 ;
+; port_in_06[3]   ; data_out[3] ; 14.064 ; 14.064 ; 14.064 ; 14.064 ;
+; port_in_06[4]   ; data_out[4] ; 18.611 ; 18.611 ; 18.611 ; 18.611 ;
+; port_in_06[5]   ; data_out[5] ; 14.100 ;        ;        ; 14.100 ;
+; port_in_06[6]   ; data_out[6] ; 13.456 ;        ;        ; 13.456 ;
+; port_in_06[7]   ; data_out[7] ; 13.060 ; 13.060 ; 13.060 ; 13.060 ;
+; port_in_07[0]   ; data_out[0] ; 15.274 ; 15.274 ; 15.274 ; 15.274 ;
+; port_in_07[1]   ; data_out[1] ; 13.781 ; 13.781 ; 13.781 ; 13.781 ;
+; port_in_07[2]   ; data_out[2] ; 14.051 ;        ;        ; 14.051 ;
+; port_in_07[3]   ; data_out[3] ; 11.791 ;        ;        ; 11.791 ;
+; port_in_07[4]   ; data_out[4] ; 17.547 ; 17.547 ; 17.547 ; 17.547 ;
+; port_in_07[5]   ; data_out[5] ; 15.207 ; 15.207 ; 15.207 ; 15.207 ;
+; port_in_07[6]   ; data_out[6] ; 14.409 ;        ;        ; 14.409 ;
+; port_in_07[7]   ; data_out[7] ; 11.739 ;        ;        ; 11.739 ;
+; port_in_08[0]   ; data_out[0] ; 15.571 ; 15.571 ; 15.571 ; 15.571 ;
+; port_in_08[1]   ; data_out[1] ; 14.749 ; 14.749 ; 14.749 ; 14.749 ;
+; port_in_08[2]   ; data_out[2] ; 16.004 ; 16.004 ; 16.004 ; 16.004 ;
+; port_in_08[3]   ; data_out[3] ; 13.438 ; 13.438 ; 13.438 ; 13.438 ;
+; port_in_08[4]   ; data_out[4] ; 16.116 ; 16.116 ; 16.116 ; 16.116 ;
+; port_in_08[5]   ; data_out[5] ; 15.427 ; 15.427 ; 15.427 ; 15.427 ;
+; port_in_08[6]   ; data_out[6] ; 15.645 ; 15.645 ; 15.645 ; 15.645 ;
+; port_in_08[7]   ; data_out[7] ; 12.633 ; 12.633 ; 12.633 ; 12.633 ;
+; port_in_09[0]   ; data_out[0] ; 15.467 ; 15.467 ; 15.467 ; 15.467 ;
+; port_in_09[1]   ; data_out[1] ; 13.408 ; 13.408 ; 13.408 ; 13.408 ;
+; port_in_09[2]   ; data_out[2] ; 15.874 ; 15.874 ; 15.874 ; 15.874 ;
+; port_in_09[3]   ; data_out[3] ; 13.800 ; 13.800 ; 13.800 ; 13.800 ;
+; port_in_09[4]   ; data_out[4] ; 15.893 ; 15.893 ; 15.893 ; 15.893 ;
+; port_in_09[5]   ; data_out[5] ; 15.012 ; 15.012 ; 15.012 ; 15.012 ;
+; port_in_09[6]   ; data_out[6] ; 14.653 ; 14.653 ; 14.653 ; 14.653 ;
+; port_in_09[7]   ; data_out[7] ; 13.716 ; 13.716 ; 13.716 ; 13.716 ;
+; port_in_10[0]   ; data_out[0] ; 14.521 ;        ;        ; 14.521 ;
+; port_in_10[1]   ; data_out[1] ; 13.485 ; 13.485 ; 13.485 ; 13.485 ;
+; port_in_10[2]   ; data_out[2] ; 15.831 ; 15.831 ; 15.831 ; 15.831 ;
+; port_in_10[3]   ; data_out[3] ; 13.237 ; 13.237 ; 13.237 ; 13.237 ;
+; port_in_10[4]   ; data_out[4] ; 15.310 ;        ;        ; 15.310 ;
+; port_in_10[5]   ; data_out[5] ; 14.978 ; 14.978 ; 14.978 ; 14.978 ;
+; port_in_10[6]   ; data_out[6] ; 15.086 ; 15.086 ; 15.086 ; 15.086 ;
+; port_in_10[7]   ; data_out[7] ; 12.512 ; 12.512 ; 12.512 ; 12.512 ;
+; port_in_11[0]   ; data_out[0] ; 14.666 ;        ;        ; 14.666 ;
+; port_in_11[1]   ; data_out[1] ; 13.284 ;        ;        ; 13.284 ;
+; port_in_11[2]   ; data_out[2] ; 14.974 ; 14.974 ; 14.974 ; 14.974 ;
+; port_in_11[3]   ; data_out[3] ; 13.330 ; 13.330 ; 13.330 ; 13.330 ;
+; port_in_11[4]   ; data_out[4] ; 15.674 ;        ;        ; 15.674 ;
+; port_in_11[5]   ; data_out[5] ; 14.269 ;        ;        ; 14.269 ;
+; port_in_11[6]   ; data_out[6] ; 13.750 ; 13.750 ; 13.750 ; 13.750 ;
+; port_in_11[7]   ; data_out[7] ; 13.163 ; 13.163 ; 13.163 ; 13.163 ;
+; port_in_12[0]   ; data_out[0] ; 14.992 ; 14.992 ; 14.992 ; 14.992 ;
+; port_in_12[1]   ; data_out[1] ; 13.926 ; 13.926 ; 13.926 ; 13.926 ;
+; port_in_12[2]   ; data_out[2] ; 15.669 ; 15.669 ; 15.669 ; 15.669 ;
+; port_in_12[3]   ; data_out[3] ; 14.117 ; 14.117 ; 14.117 ; 14.117 ;
+; port_in_12[4]   ; data_out[4] ; 12.448 ; 12.448 ; 12.448 ; 12.448 ;
+; port_in_12[5]   ; data_out[5] ; 14.765 ; 14.765 ; 14.765 ; 14.765 ;
+; port_in_12[6]   ; data_out[6] ; 13.893 ; 13.893 ; 13.893 ; 13.893 ;
+; port_in_12[7]   ; data_out[7] ; 12.436 ; 12.436 ; 12.436 ; 12.436 ;
+; port_in_13[0]   ; data_out[0] ; 14.443 ;        ;        ; 14.443 ;
+; port_in_13[1]   ; data_out[1] ; 13.835 ; 13.835 ; 13.835 ; 13.835 ;
+; port_in_13[2]   ; data_out[2] ; 15.040 ; 15.040 ; 15.040 ; 15.040 ;
+; port_in_13[3]   ; data_out[3] ; 12.619 ;        ;        ; 12.619 ;
+; port_in_13[4]   ; data_out[4] ; 16.497 ;        ;        ; 16.497 ;
+; port_in_13[5]   ; data_out[5] ; 15.070 ; 15.070 ; 15.070 ; 15.070 ;
+; port_in_13[6]   ; data_out[6] ; 14.185 ; 14.185 ; 14.185 ; 14.185 ;
+; port_in_13[7]   ; data_out[7] ; 12.513 ;        ;        ; 12.513 ;
+; port_in_14[0]   ; data_out[0] ; 14.638 ; 14.638 ; 14.638 ; 14.638 ;
+; port_in_14[1]   ; data_out[1] ; 13.357 ;        ;        ; 13.357 ;
+; port_in_14[2]   ; data_out[2] ; 14.731 ;        ;        ; 14.731 ;
+; port_in_14[3]   ; data_out[3] ; 13.082 ; 13.082 ; 13.082 ; 13.082 ;
+; port_in_14[4]   ; data_out[4] ; 16.676 ; 16.676 ; 16.676 ; 16.676 ;
+; port_in_14[5]   ; data_out[5] ; 14.204 ;        ;        ; 14.204 ;
+; port_in_14[6]   ; data_out[6] ; 13.356 ;        ;        ; 13.356 ;
+; port_in_14[7]   ; data_out[7] ; 12.382 ; 12.382 ; 12.382 ; 12.382 ;
+; port_in_15[0]   ; data_out[0] ; 14.106 ;        ;        ; 14.106 ;
+; port_in_15[1]   ; data_out[1] ; 12.723 ;        ;        ; 12.723 ;
+; port_in_15[2]   ; data_out[2] ; 14.668 ;        ;        ; 14.668 ;
+; port_in_15[3]   ; data_out[3] ; 12.202 ;        ;        ; 12.202 ;
+; port_in_15[4]   ; data_out[4] ; 11.577 ;        ;        ; 11.577 ;
+; port_in_15[5]   ; data_out[5] ; 14.498 ;        ;        ; 14.498 ;
+; port_in_15[6]   ; data_out[6] ; 13.780 ;        ;        ; 13.780 ;
+; port_in_15[7]   ; data_out[7] ; 12.831 ;        ;        ; 12.831 ;
+; rom_data_out[0] ; data_out[0] ; 10.407 ;        ;        ; 10.407 ;
+; rom_data_out[1] ; data_out[1] ; 11.307 ;        ;        ; 11.307 ;
+; rom_data_out[2] ; data_out[2] ; 11.075 ;        ;        ; 11.075 ;
+; rom_data_out[3] ; data_out[3] ; 14.394 ;        ;        ; 14.394 ;
+; rom_data_out[4] ; data_out[4] ; 11.513 ;        ;        ; 11.513 ;
+; rom_data_out[5] ; data_out[5] ; 8.549  ;        ;        ; 8.549  ;
+; rom_data_out[6] ; data_out[6] ; 11.241 ;        ;        ; 11.241 ;
+; rom_data_out[7] ; data_out[7] ; 10.931 ;        ;        ; 10.931 ;
+; rw_data_out[0]  ; data_out[0] ; 11.166 ;        ;        ; 11.166 ;
+; rw_data_out[1]  ; data_out[1] ; 10.897 ;        ;        ; 10.897 ;
+; rw_data_out[2]  ; data_out[2] ; 11.105 ;        ;        ; 11.105 ;
+; rw_data_out[3]  ; data_out[3] ; 13.935 ;        ;        ; 13.935 ;
+; rw_data_out[4]  ; data_out[4] ; 11.360 ;        ;        ; 11.360 ;
+; rw_data_out[5]  ; data_out[5] ; 8.205  ;        ;        ; 8.205  ;
+; rw_data_out[6]  ; data_out[6] ; 11.542 ;        ;        ; 11.542 ;
+; rw_data_out[7]  ; data_out[7] ; 11.452 ;        ;        ; 11.452 ;
++-----------------+-------------+--------+--------+--------+--------+
+
+
++---------------------------------------------------------------+
+; Minimum Progagation Delay                                     ;
++-----------------+-------------+-------+-------+-------+-------+
+; Input Port      ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++-----------------+-------------+-------+-------+-------+-------+
+; address[0]      ; data_out[0] ; 6.461 ; 6.461 ; 6.461 ; 6.461 ;
+; address[0]      ; data_out[1] ; 6.148 ; 6.148 ; 6.148 ; 6.148 ;
+; address[0]      ; data_out[2] ; 7.230 ; 7.230 ; 7.230 ; 7.230 ;
+; address[0]      ; data_out[3] ; 5.871 ; 5.871 ; 5.871 ; 5.871 ;
+; address[0]      ; data_out[4] ; 7.450 ; 7.450 ; 7.450 ; 7.450 ;
+; address[0]      ; data_out[5] ; 7.099 ; 7.099 ; 7.099 ; 7.099 ;
+; address[0]      ; data_out[6] ; 7.271 ; 7.271 ; 7.271 ; 7.271 ;
+; address[0]      ; data_out[7] ; 6.285 ; 6.285 ; 6.285 ; 6.285 ;
+; address[1]      ; data_out[0] ; 6.265 ; 6.265 ; 6.265 ; 6.265 ;
+; address[1]      ; data_out[1] ; 5.821 ; 5.821 ; 5.821 ; 5.821 ;
+; address[1]      ; data_out[2] ; 6.894 ; 6.894 ; 6.894 ; 6.894 ;
+; address[1]      ; data_out[3] ; 6.138 ; 6.138 ; 6.138 ; 6.138 ;
+; address[1]      ; data_out[4] ; 7.271 ; 7.271 ; 7.271 ; 7.271 ;
+; address[1]      ; data_out[5] ; 5.892 ; 5.892 ; 5.892 ; 5.892 ;
+; address[1]      ; data_out[6] ; 6.654 ; 6.654 ; 6.654 ; 6.654 ;
+; address[1]      ; data_out[7] ; 5.963 ; 5.963 ; 5.963 ; 5.963 ;
+; address[2]      ; data_out[0] ; 6.335 ; 6.335 ; 6.335 ; 6.335 ;
+; address[2]      ; data_out[1] ; 6.357 ; 6.357 ; 6.357 ; 6.357 ;
+; address[2]      ; data_out[2] ; 6.613 ; 6.613 ; 6.613 ; 6.613 ;
+; address[2]      ; data_out[3] ; 5.919 ; 5.919 ; 5.919 ; 5.919 ;
+; address[2]      ; data_out[4] ; 7.586 ; 7.586 ; 7.586 ; 7.586 ;
+; address[2]      ; data_out[5] ; 6.521 ; 6.521 ; 6.521 ; 6.521 ;
+; address[2]      ; data_out[6] ; 6.193 ; 6.193 ; 6.193 ; 6.193 ;
+; address[2]      ; data_out[7] ; 5.798 ; 5.798 ; 5.798 ; 5.798 ;
+; address[3]      ; data_out[0] ; 3.441 ; 3.441 ; 3.441 ; 3.441 ;
+; address[3]      ; data_out[1] ; 4.163 ; 4.163 ; 4.163 ; 4.163 ;
+; address[3]      ; data_out[2] ; 4.750 ; 4.750 ; 4.750 ; 4.750 ;
+; address[3]      ; data_out[3] ; 3.902 ; 3.902 ; 3.902 ; 3.902 ;
+; address[3]      ; data_out[4] ; 4.931 ; 4.931 ; 4.931 ; 4.931 ;
+; address[3]      ; data_out[5] ; 4.007 ; 4.007 ; 4.007 ; 4.007 ;
+; address[3]      ; data_out[6] ; 4.236 ; 4.236 ; 4.236 ; 4.236 ;
+; address[3]      ; data_out[7] ; 3.807 ; 3.807 ; 3.807 ; 3.807 ;
+; address[4]      ; data_out[0] ; 5.096 ;       ;       ; 5.096 ;
+; address[4]      ; data_out[1] ; 5.274 ;       ;       ; 5.274 ;
+; address[4]      ; data_out[2] ; 5.189 ;       ;       ; 5.189 ;
+; address[4]      ; data_out[3] ; 6.632 ;       ;       ; 6.632 ;
+; address[4]      ; data_out[4] ; 5.200 ;       ;       ; 5.200 ;
+; address[4]      ; data_out[5] ; 5.232 ;       ;       ; 5.232 ;
+; address[4]      ; data_out[6] ; 5.229 ;       ;       ; 5.229 ;
+; address[4]      ; data_out[7] ; 6.185 ;       ;       ; 6.185 ;
+; address[5]      ; data_out[0] ; 5.102 ; 5.429 ; 5.429 ; 5.102 ;
+; address[5]      ; data_out[1] ; 5.280 ; 5.503 ; 5.503 ; 5.280 ;
+; address[5]      ; data_out[2] ; 5.195 ; 5.537 ; 5.537 ; 5.195 ;
+; address[5]      ; data_out[3] ; 6.638 ; 6.645 ; 6.645 ; 6.638 ;
+; address[5]      ; data_out[4] ; 5.206 ; 5.547 ; 5.547 ; 5.206 ;
+; address[5]      ; data_out[5] ; 5.238 ; 5.572 ; 5.572 ; 5.238 ;
+; address[5]      ; data_out[6] ; 5.235 ; 5.580 ; 5.580 ; 5.235 ;
+; address[5]      ; data_out[7] ; 6.191 ; 6.148 ; 6.148 ; 6.191 ;
+; address[6]      ; data_out[0] ; 5.004 ; 5.336 ; 5.336 ; 5.004 ;
+; address[6]      ; data_out[1] ; 5.182 ; 5.410 ; 5.410 ; 5.182 ;
+; address[6]      ; data_out[2] ; 5.097 ; 5.444 ; 5.444 ; 5.097 ;
+; address[6]      ; data_out[3] ; 6.540 ; 6.552 ; 6.552 ; 6.540 ;
+; address[6]      ; data_out[4] ; 5.108 ; 5.454 ; 5.454 ; 5.108 ;
+; address[6]      ; data_out[5] ; 5.140 ; 5.479 ; 5.479 ; 5.140 ;
+; address[6]      ; data_out[6] ; 5.137 ; 5.487 ; 5.487 ; 5.137 ;
+; address[6]      ; data_out[7] ; 6.093 ; 6.055 ; 6.055 ; 6.093 ;
+; address[7]      ; data_out[0] ; 5.438 ; 5.452 ; 5.452 ; 5.438 ;
+; address[7]      ; data_out[1] ; 5.616 ; 5.515 ; 5.515 ; 5.616 ;
+; address[7]      ; data_out[2] ; 5.531 ; 5.557 ; 5.557 ; 5.531 ;
+; address[7]      ; data_out[3] ; 6.974 ; 6.800 ; 6.800 ; 6.974 ;
+; address[7]      ; data_out[4] ; 5.542 ; 5.567 ; 5.567 ; 5.542 ;
+; address[7]      ; data_out[5] ; 5.574 ; 5.590 ; 5.590 ; 5.574 ;
+; address[7]      ; data_out[6] ; 5.571 ; 5.594 ; 5.594 ; 5.571 ;
+; address[7]      ; data_out[7] ; 6.495 ; 5.586 ; 5.586 ; 6.495 ;
+; port_in_00[0]   ; data_out[0] ; 6.686 ; 6.686 ; 6.686 ; 6.686 ;
+; port_in_00[1]   ; data_out[1] ; 6.326 ; 6.326 ; 6.326 ; 6.326 ;
+; port_in_00[2]   ; data_out[2] ; 7.046 ; 7.046 ; 7.046 ; 7.046 ;
+; port_in_00[3]   ; data_out[3] ; 6.428 ; 6.428 ; 6.428 ; 6.428 ;
+; port_in_00[4]   ; data_out[4] ; 7.646 ; 7.646 ; 7.646 ; 7.646 ;
+; port_in_00[5]   ; data_out[5] ; 6.724 ; 6.724 ; 6.724 ; 6.724 ;
+; port_in_00[6]   ; data_out[6] ; 6.763 ; 6.763 ; 6.763 ; 6.763 ;
+; port_in_00[7]   ; data_out[7] ; 5.954 ; 5.954 ; 5.954 ; 5.954 ;
+; port_in_01[0]   ; data_out[0] ; 6.585 ; 6.585 ; 6.585 ; 6.585 ;
+; port_in_01[1]   ; data_out[1] ; 6.344 ; 6.344 ; 6.344 ; 6.344 ;
+; port_in_01[2]   ; data_out[2] ; 6.771 ; 6.771 ; 6.771 ; 6.771 ;
+; port_in_01[3]   ; data_out[3] ; 6.097 ; 6.097 ; 6.097 ; 6.097 ;
+; port_in_01[4]   ; data_out[4] ; 7.957 ; 7.957 ; 7.957 ; 7.957 ;
+; port_in_01[5]   ; data_out[5] ; 6.711 ; 6.711 ; 6.711 ; 6.711 ;
+; port_in_01[6]   ; data_out[6] ; 6.336 ; 6.336 ; 6.336 ; 6.336 ;
+; port_in_01[7]   ; data_out[7] ; 5.712 ; 5.712 ; 5.712 ; 5.712 ;
+; port_in_02[0]   ; data_out[0] ; 6.307 ; 6.307 ; 6.307 ; 6.307 ;
+; port_in_02[1]   ; data_out[1] ; 5.928 ; 5.928 ; 5.928 ; 5.928 ;
+; port_in_02[2]   ; data_out[2] ; 6.938 ; 6.938 ; 6.938 ; 6.938 ;
+; port_in_02[3]   ; data_out[3] ; 6.120 ; 6.120 ; 6.120 ; 6.120 ;
+; port_in_02[4]   ; data_out[4] ; 7.559 ; 7.559 ; 7.559 ; 7.559 ;
+; port_in_02[5]   ; data_out[5] ; 6.444 ; 6.444 ; 6.444 ; 6.444 ;
+; port_in_02[6]   ; data_out[6] ; 6.764 ; 6.764 ; 6.764 ; 6.764 ;
+; port_in_02[7]   ; data_out[7] ; 6.119 ; 6.119 ; 6.119 ; 6.119 ;
+; port_in_03[0]   ; data_out[0] ; 6.398 ; 6.398 ; 6.398 ; 6.398 ;
+; port_in_03[1]   ; data_out[1] ; 6.016 ; 6.016 ; 6.016 ; 6.016 ;
+; port_in_03[2]   ; data_out[2] ; 6.699 ; 6.699 ; 6.699 ; 6.699 ;
+; port_in_03[3]   ; data_out[3] ; 6.091 ; 6.091 ; 6.091 ; 6.091 ;
+; port_in_03[4]   ; data_out[4] ; 7.598 ; 7.598 ; 7.598 ; 7.598 ;
+; port_in_03[5]   ; data_out[5] ; 6.501 ; 6.501 ; 6.501 ; 6.501 ;
+; port_in_03[6]   ; data_out[6] ; 6.454 ; 6.454 ; 6.454 ; 6.454 ;
+; port_in_03[7]   ; data_out[7] ; 5.804 ; 5.804 ; 5.804 ; 5.804 ;
+; port_in_04[0]   ; data_out[0] ; 4.062 ; 4.062 ; 4.062 ; 4.062 ;
+; port_in_04[1]   ; data_out[1] ; 6.036 ; 6.036 ; 6.036 ; 6.036 ;
+; port_in_04[2]   ; data_out[2] ; 6.419 ; 6.419 ; 6.419 ; 6.419 ;
+; port_in_04[3]   ; data_out[3] ; 6.295 ; 6.295 ; 6.295 ; 6.295 ;
+; port_in_04[4]   ; data_out[4] ; 7.883 ; 7.883 ; 7.883 ; 7.883 ;
+; port_in_04[5]   ; data_out[5] ; 6.474 ; 6.474 ; 6.474 ; 6.474 ;
+; port_in_04[6]   ; data_out[6] ; 6.363 ; 6.363 ; 6.363 ; 6.363 ;
+; port_in_04[7]   ; data_out[7] ; 5.875 ; 5.875 ; 5.875 ; 5.875 ;
+; port_in_05[0]   ; data_out[0] ; 3.920 ; 3.920 ; 3.920 ; 3.920 ;
+; port_in_05[1]   ; data_out[1] ; 6.252 ; 6.252 ; 6.252 ; 6.252 ;
+; port_in_05[2]   ; data_out[2] ; 6.461 ; 6.461 ; 6.461 ; 6.461 ;
+; port_in_05[3]   ; data_out[3] ; 5.509 ;       ;       ; 5.509 ;
+; port_in_05[4]   ; data_out[4] ; 7.465 ; 7.465 ; 7.465 ; 7.465 ;
+; port_in_05[5]   ; data_out[5] ; 6.684 ; 6.684 ; 6.684 ; 6.684 ;
+; port_in_05[6]   ; data_out[6] ; 6.204 ; 6.204 ; 6.204 ; 6.204 ;
+; port_in_05[7]   ; data_out[7] ; 5.658 ;       ;       ; 5.658 ;
+; port_in_06[0]   ; data_out[0] ; 4.169 ; 4.169 ; 4.169 ; 4.169 ;
+; port_in_06[1]   ; data_out[1] ; 5.936 ;       ;       ; 5.936 ;
+; port_in_06[2]   ; data_out[2] ; 6.272 ;       ;       ; 6.272 ;
+; port_in_06[3]   ; data_out[3] ; 6.248 ; 6.248 ; 6.248 ; 6.248 ;
+; port_in_06[4]   ; data_out[4] ; 7.779 ; 7.779 ; 7.779 ; 7.779 ;
+; port_in_06[5]   ; data_out[5] ; 6.229 ;       ;       ; 6.229 ;
+; port_in_06[6]   ; data_out[6] ; 5.986 ;       ;       ; 5.986 ;
+; port_in_06[7]   ; data_out[7] ; 5.809 ; 5.809 ; 5.809 ; 5.809 ;
+; port_in_07[0]   ; data_out[0] ; 6.607 ; 6.607 ; 6.607 ; 6.607 ;
+; port_in_07[1]   ; data_out[1] ; 6.088 ; 6.088 ; 6.088 ; 6.088 ;
+; port_in_07[2]   ; data_out[2] ; 6.244 ;       ;       ; 6.244 ;
+; port_in_07[3]   ; data_out[3] ; 5.474 ;       ;       ; 5.474 ;
+; port_in_07[4]   ; data_out[4] ; 7.431 ; 7.431 ; 7.431 ; 7.431 ;
+; port_in_07[5]   ; data_out[5] ; 6.577 ; 6.577 ; 6.577 ; 6.577 ;
+; port_in_07[6]   ; data_out[6] ; 6.298 ;       ;       ; 6.298 ;
+; port_in_07[7]   ; data_out[7] ; 5.387 ;       ;       ; 5.387 ;
+; port_in_08[0]   ; data_out[0] ; 6.724 ; 6.724 ; 6.724 ; 6.724 ;
+; port_in_08[1]   ; data_out[1] ; 6.399 ; 6.399 ; 6.399 ; 6.399 ;
+; port_in_08[2]   ; data_out[2] ; 6.866 ; 6.866 ; 6.866 ; 6.866 ;
+; port_in_08[3]   ; data_out[3] ; 5.988 ; 5.988 ; 5.988 ; 5.988 ;
+; port_in_08[4]   ; data_out[4] ; 6.900 ; 6.900 ; 6.900 ; 6.900 ;
+; port_in_08[5]   ; data_out[5] ; 6.604 ; 6.604 ; 6.604 ; 6.604 ;
+; port_in_08[6]   ; data_out[6] ; 6.728 ; 6.728 ; 6.728 ; 6.728 ;
+; port_in_08[7]   ; data_out[7] ; 5.730 ; 5.730 ; 5.730 ; 5.730 ;
+; port_in_09[0]   ; data_out[0] ; 6.710 ; 6.710 ; 6.710 ; 6.710 ;
+; port_in_09[1]   ; data_out[1] ; 5.964 ; 5.964 ; 5.964 ; 5.964 ;
+; port_in_09[2]   ; data_out[2] ; 6.839 ; 6.839 ; 6.839 ; 6.839 ;
+; port_in_09[3]   ; data_out[3] ; 6.125 ; 6.125 ; 6.125 ; 6.125 ;
+; port_in_09[4]   ; data_out[4] ; 6.827 ; 6.827 ; 6.827 ; 6.827 ;
+; port_in_09[5]   ; data_out[5] ; 6.502 ; 6.502 ; 6.502 ; 6.502 ;
+; port_in_09[6]   ; data_out[6] ; 6.419 ; 6.419 ; 6.419 ; 6.419 ;
+; port_in_09[7]   ; data_out[7] ; 6.030 ; 6.030 ; 6.030 ; 6.030 ;
+; port_in_10[0]   ; data_out[0] ; 6.364 ;       ;       ; 6.364 ;
+; port_in_10[1]   ; data_out[1] ; 5.997 ; 5.997 ; 5.997 ; 5.997 ;
+; port_in_10[2]   ; data_out[2] ; 6.803 ; 6.803 ; 6.803 ; 6.803 ;
+; port_in_10[3]   ; data_out[3] ; 5.936 ; 5.936 ; 5.936 ; 5.936 ;
+; port_in_10[4]   ; data_out[4] ; 6.646 ;       ;       ; 6.646 ;
+; port_in_10[5]   ; data_out[5] ; 6.528 ; 6.528 ; 6.528 ; 6.528 ;
+; port_in_10[6]   ; data_out[6] ; 6.514 ; 6.514 ; 6.514 ; 6.514 ;
+; port_in_10[7]   ; data_out[7] ; 5.631 ; 5.631 ; 5.631 ; 5.631 ;
+; port_in_11[0]   ; data_out[0] ; 6.423 ;       ;       ; 6.423 ;
+; port_in_11[1]   ; data_out[1] ; 5.922 ;       ;       ; 5.922 ;
+; port_in_11[2]   ; data_out[2] ; 6.546 ; 6.546 ; 6.546 ; 6.546 ;
+; port_in_11[3]   ; data_out[3] ; 5.961 ; 5.961 ; 5.961 ; 5.961 ;
+; port_in_11[4]   ; data_out[4] ; 6.762 ;       ;       ; 6.762 ;
+; port_in_11[5]   ; data_out[5] ; 6.267 ;       ;       ; 6.267 ;
+; port_in_11[6]   ; data_out[6] ; 6.089 ; 6.089 ; 6.089 ; 6.089 ;
+; port_in_11[7]   ; data_out[7] ; 5.870 ; 5.870 ; 5.870 ; 5.870 ;
+; port_in_12[0]   ; data_out[0] ; 6.449 ; 6.449 ; 6.449 ; 6.449 ;
+; port_in_12[1]   ; data_out[1] ; 6.124 ; 6.124 ; 6.124 ; 6.124 ;
+; port_in_12[2]   ; data_out[2] ; 6.762 ; 6.762 ; 6.762 ; 6.762 ;
+; port_in_12[3]   ; data_out[3] ; 6.297 ; 6.297 ; 6.297 ; 6.297 ;
+; port_in_12[4]   ; data_out[4] ; 4.811 ; 4.811 ; 4.811 ; 4.811 ;
+; port_in_12[5]   ; data_out[5] ; 6.435 ; 6.435 ; 6.435 ; 6.435 ;
+; port_in_12[6]   ; data_out[6] ; 6.139 ; 6.139 ; 6.139 ; 6.139 ;
+; port_in_12[7]   ; data_out[7] ; 5.613 ; 5.613 ; 5.613 ; 5.613 ;
+; port_in_13[0]   ; data_out[0] ; 6.287 ;       ;       ; 6.287 ;
+; port_in_13[1]   ; data_out[1] ; 6.106 ; 6.106 ; 6.106 ; 6.106 ;
+; port_in_13[2]   ; data_out[2] ; 6.554 ; 6.554 ; 6.554 ; 6.554 ;
+; port_in_13[3]   ; data_out[3] ; 5.788 ;       ;       ; 5.788 ;
+; port_in_13[4]   ; data_out[4] ; 7.023 ;       ;       ; 7.023 ;
+; port_in_13[5]   ; data_out[5] ; 6.525 ; 6.525 ; 6.525 ; 6.525 ;
+; port_in_13[6]   ; data_out[6] ; 6.217 ; 6.217 ; 6.217 ; 6.217 ;
+; port_in_13[7]   ; data_out[7] ; 5.663 ;       ;       ; 5.663 ;
+; port_in_14[0]   ; data_out[0] ; 6.319 ; 6.319 ; 6.319 ; 6.319 ;
+; port_in_14[1]   ; data_out[1] ; 5.960 ;       ;       ; 5.960 ;
+; port_in_14[2]   ; data_out[2] ; 6.465 ;       ;       ; 6.465 ;
+; port_in_14[3]   ; data_out[3] ; 5.895 ; 5.895 ; 5.895 ; 5.895 ;
+; port_in_14[4]   ; data_out[4] ; 7.079 ; 7.079 ; 7.079 ; 7.079 ;
+; port_in_14[5]   ; data_out[5] ; 6.265 ;       ;       ; 6.265 ;
+; port_in_14[6]   ; data_out[6] ; 5.959 ;       ;       ; 5.959 ;
+; port_in_14[7]   ; data_out[7] ; 5.610 ; 5.610 ; 5.610 ; 5.610 ;
+; port_in_15[0]   ; data_out[0] ; 6.165 ;       ;       ; 6.165 ;
+; port_in_15[1]   ; data_out[1] ; 5.756 ;       ;       ; 5.756 ;
+; port_in_15[2]   ; data_out[2] ; 6.435 ;       ;       ; 6.435 ;
+; port_in_15[3]   ; data_out[3] ; 5.603 ;       ;       ; 5.603 ;
+; port_in_15[4]   ; data_out[4] ; 4.526 ;       ;       ; 4.526 ;
+; port_in_15[5]   ; data_out[5] ; 6.328 ;       ;       ; 6.328 ;
+; port_in_15[6]   ; data_out[6] ; 6.081 ;       ;       ; 6.081 ;
+; port_in_15[7]   ; data_out[7] ; 5.752 ;       ;       ; 5.752 ;
+; rom_data_out[0] ; data_out[0] ; 4.900 ;       ;       ; 4.900 ;
+; rom_data_out[1] ; data_out[1] ; 5.211 ;       ;       ; 5.211 ;
+; rom_data_out[2] ; data_out[2] ; 5.102 ;       ;       ; 5.102 ;
+; rom_data_out[3] ; data_out[3] ; 6.410 ;       ;       ; 6.410 ;
+; rom_data_out[4] ; data_out[4] ; 5.247 ;       ;       ; 5.247 ;
+; rom_data_out[5] ; data_out[5] ; 3.531 ;       ;       ; 3.531 ;
+; rom_data_out[6] ; data_out[6] ; 5.171 ;       ;       ; 5.171 ;
+; rom_data_out[7] ; data_out[7] ; 5.147 ;       ;       ; 5.147 ;
+; rw_data_out[0]  ; data_out[0] ; 5.134 ;       ;       ; 5.134 ;
+; rw_data_out[1]  ; data_out[1] ; 5.092 ;       ;       ; 5.092 ;
+; rw_data_out[2]  ; data_out[2] ; 5.113 ;       ;       ; 5.113 ;
+; rw_data_out[3]  ; data_out[3] ; 6.280 ;       ;       ; 6.280 ;
+; rw_data_out[4]  ; data_out[4] ; 5.206 ;       ;       ; 5.206 ;
+; rw_data_out[5]  ; data_out[5] ; 3.418 ;       ;       ; 3.418 ;
+; rw_data_out[6]  ; data_out[6] ; 5.284 ;       ;       ; 5.284 ;
+; rw_data_out[7]  ; data_out[7] ; 5.330 ;       ;       ; 5.330 ;
++-----------------+-------------+-------+-------+-------+-------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 152   ; 152  ;
+; Unconstrained Input Port Paths  ; 208   ; 208  ;
+; Unconstrained Output Ports      ; 8     ; 8    ;
+; Unconstrained Output Port Paths ; 208   ; 208  ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Wed Mar 24 09:46:01 2021
+Info: Command: quartus_sta Mux_3to1 -c Mux_3to1
+Info: qsta_default_script.tcl version: #1
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (21077): Low junction temperature is -40 degrees C
+Info (21077): High junction temperature is 125 degrees C
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'Mux_3to1.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info: Analyzing Slow Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 4553 megabytes
+    Info: Processing ended: Wed Mar 24 09:46:06 2021
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:03
+
+

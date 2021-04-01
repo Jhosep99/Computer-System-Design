@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\jdgar\Desktop\Digitales\VDHL\computer\simulation\qsim
+vcomputer
+Z1 !s100 R3YGYQJnmlJN:9Al:FoH91
+Z2 Id?fNd??YS[RYFA`S1_DFX1
+Z3 VEh0GH5IETDoKKLA6H:Q@J3
+Z4 dC:\Users\jdgar\Desktop\Digitales\VDHL\computer\simulation\qsim
+Z5 w1617156495
+Z6 8computer.vo
+Z7 Fcomputer.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|computer.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1617156499.693000
+Z12 !s107 computer.vo|
+!s101 -O0
+vcomputer_vlg_check_tst
+!i10b 1
+Z13 !s100 e;]@XE^K:ACgeObj7bLDi1
+Z14 IE8gJ@`SnbiD_B[=Z]`4?c0
+Z15 VMN@>2Gn0Hn18CZ4AJ^dTN1
+R4
+Z16 w1617156491
+Z17 8computer.vt
+Z18 Fcomputer.vt
+L0 91
+R8
+r1
+!s85 0
+31
+Z19 !s108 1617156500.872000
+Z20 !s107 computer.vt|
+Z21 !s90 -work|work|computer.vt|
+!s101 -O0
+R10
+vcomputer_vlg_sample_tst
+!i10b 1
+Z22 !s100 10PLZbd3MACHK@[6SN`MI2
+Z23 IART@JX^boS;9g@oU7N[cK2
+Z24 Vdd]Q8Fl6:5P`G@O>dRgH93
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vcomputer_vlg_vec_tst
+!i10b 1
+!s100 bOCfREQGebEX:BXUz15<31
+I?_bMBX;Uo5clOScUVchBo3
+Z25 V2?<Bzjb[WJizdH7>F:UPP1
+R4
+R16
+R17
+R18
+Z26 L0 2591
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
